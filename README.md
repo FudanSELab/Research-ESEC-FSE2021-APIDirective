@@ -16,11 +16,11 @@
 
 ## Atomic Formula Extraction
 
-### manually annotated data for training BERT-BiLSTM-CRF model
+### Manually Annotated Data for Training BERT-BiLSTM-CRF Model
 - [Manually annotated data for training BERT-BiLSTM-CRF model](https://github.com/FudanSELab/Research-ESEC-FSE2021-APIDirective/tree/main/entity_recognization/valid.json). The annotation data for entity recognization without negative data. The data is annotated by four master students manually. Each directive sentence is annotated by two annotators independently. If their annotators
-are different, one of the authors will join and resolve the conflict using the majority strategy. As a result, we obtained 3226 annotated directive sentences with 7,045 arguments.
+are different, one of the authors will join and resolve the conflict using the majority strategy. As a result, we obtained 3226 annotated directive sentences with 7,045 arguments. The data is not completely available, we will update it later.
 
-### Automatically generated annotated data for training BERT-BiLSTM-CRF model
+### Automatically Generated Annotated Data for Training BERT-BiLSTM-CRF Model
 - [Automatically generated annotated data for training BERT-BiLSTM-CRF model](https://github.com/FudanSELab/Research-ESEC-FSE2021-APIDirective/tree/main/entity_recognization/train_data.json). The training data for entity recognization extended automatically. Based on the annotated sentences, we use a series of heuristic rules to generate more training data. Finally, we obtain 11,019 annotated directive sentences with 16,972 annotated arguments as the training data.
 
 ## Logical Relation Recognition
