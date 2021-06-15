@@ -1,0 +1,3675 @@
+[
+  {
+    "count": 1,
+    "mention": "event ID values",
+    "source_api_id": 8061,
+    "source_name": "java.awt.AWTEvent",
+    "text": "Subclasses of this root AWTEvent class defined outside of the java.awt.event package should define event ID values greater than the value defined by RESERVED_ID_MAX.",
+    "labels": [
+      99,
+      114,
+      "GT-1"
+    ],
+    "linked_entity_name": "java.awt.AWTEvent.id",
+    "linked_id": 193572
+  },
+  {
+    "count": 2,
+    "mention": "the value defined by RESERVED_ID_MAX",
+    "source_api_id": 8061,
+    "source_name": "java.awt.AWTEvent",
+    "text": "Subclasses of this root AWTEvent class defined outside of the java.awt.event package should define event ID values greater than the value defined by RESERVED_ID_MAX.",
+    "labels": [
+      128,
+      164,
+      "GT-2"
+    ],
+    "linked_entity_name": "java.awt.AWTEvent.RESERVED_ID_MAX",
+    "linked_id": 193598
+  },
+  {
+    "count": 3,
+    "mention": "the miterlimit value",
+    "source_api_id": 8067,
+    "source_name": "java.awt.BasicStroke",
+    "text": "A line join is trimmed when the ratio of miter length to stroke width is greater than the miterlimit value.",
+    "labels": [
+      86,
+      106,
+      "GT-2"
+    ],
+    "linked_entity_name": "java.awt.BasicStroke.miterlimit",
+    "linked_id": 193625
+  },
+  {
+    "count": 4,
+    "mention": "ItemEvent",
+    "source_api_id": 8080,
+    "source_name": "java.awt.CheckboxMenuItem",
+    "text": "Since the event is an instance of ItemEvent, the processEvent method examines the event and passes it along to processItemEvent.",
+    "labels": [
+      34,
+      43,
+      "Type-2"
+    ],
+    "linked_entity_name": "java.awt.event.ItemEvent",
+    "linked_id": 8197
+  },
+  {
+    "count": 5,
+    "mention": "Pixel sizes",
+    "source_api_id": 8368,
+    "source_name": "java.awt.image.IndexColorModel",
+    "text": "Pixel sizes larger than 16 bits are not supported by this class.",
+    "labels": [
+      0,
+      11,
+      "GT-1"
+    ],
+    "linked_entity_name": [
+      "java.awt.image.IndexColorModel.pixel_bits"
+    ],
+    "linked_id": 563457
+  },
+  {
+    "count": 6,
+    "mention": "CheckboxMenuItem labeled \"Check\"",
+    "source_api_id": 8432,
+    "source_name": "java.awt.MenuItem",
+    "text": "Next is an instance of CheckboxMenuItem labeled \"Check\".",
+    "labels": [
+      23,
+      55,
+      "Type-2"
+    ],
+    "linked_entity_name": "java.awt.CheckboxMenuItem",
+    "linked_id": 8080
+  },
+  {
+    "count": 7,
+    "mention": "Menu",
+    "source_api_id": 8432,
+    "source_name": "java.awt.MenuItem",
+    "text": "The final menu item is a submenu labeled \"More Examples\", and this submenu is an instance of Menu.",
+    "labels": [
+      93,
+      97,
+      "Type-2"
+    ],
+    "linked_entity_name": "java.awt.Menu",
+    "linked_id": 8425
+  },
+  {
+    "count": 8,
+    "mention": "ActionEvent",
+    "source_api_id": 8432,
+    "source_name": "java.awt.MenuItem",
+    "text": "Since the event is an instance of ActionEvent, the processEvent method examines the event and passes it along to processActionEvent.",
+    "labels": [
+      34,
+      45,
+      "Type-2"
+    ],
+    "linked_entity_name": "javafx.event.ActionEvent",
+    "linked_id": 3280
+  },
+  {
+    "count": 9,
+    "mention": "width",
+    "source_api_id": 8505,
+    "source_name": "java.awt.Rectangle",
+    "text": "A Rectangle whose width or height is negative has neither location nor dimension along those axes with negative dimensions.",
+    "labels": [
+      18,
+      23,
+      "Negative"
+    ],
+    "linked_entity_name": "java.awt.Rectangle.width",
+    "linked_id": 196515
+  },
+  {
+    "count": 10,
+    "mention": "dimension",
+    "source_api_id": 8505,
+    "source_name": "java.awt.Rectangle",
+    "text": "If the true result had a negative dimension and was therefore non-existant along one or both axes, the stored dimensions will be negative numbers in those axes.",
+    "labels": [
+      34,
+      43,
+      "Negative"
+    ],
+    "linked_entity_name": "java.awt.Rectangle.getSize().<R>",
+    "linked_id": 459709
+  },
+  {
+    "count": 11,
+    "mention": "the Lookup.in method",
+    "source_api_id": 8949,
+    "source_name": "java.lang.invoke.MethodHandles.Lookup",
+    "text": "Also, the Lookup.in method may produce a lookup object with fewer access modes than the original lookup object.",
+    "labels": [
+      6,
+      26,
+      "Returns-1"
+    ],
+    "linked_entity_name": [
+      "java.lang.invoke.MethodHandles.Lookup.in(java.lang.Class<?>)",
+      [
+        "java.lang.invoke.MethodHandles.Lookup.in(java.lang.Class<?>)",
+        "Lookup.in",
+        "in"
+      ]
+    ],
+    "linked_id": 101439
+  },
+  {
+    "count": 12,
+    "mention": "a lookup object",
+    "source_api_id": 8949,
+    "source_name": "java.lang.invoke.MethodHandles.Lookup",
+    "text": "Also, the Lookup.in method may produce a lookup object with fewer access modes than the original lookup object.",
+    "labels": [
+      39,
+      54,
+      "Returns-2"
+    ],
+    "linked_entity_name": "java.lang.invoke.MethodHandles.Lookup",
+    "linked_id": 8949
+  },
+  {
+    "count": 13,
+    "mention": "committed",
+    "source_api_id": 8978,
+    "source_name": "java.lang.management.MemoryUsage",
+    "text": "The Java virtual machine may release memory to the system and committed could be less than init.",
+    "labels": [
+      62,
+      71,
+      "LT-1"
+    ],
+    "linked_entity_name": "java.lang.management.MemoryUsage.committed",
+    "linked_id": 198638
+  },
+  {
+    "count": 14,
+    "mention": "init",
+    "source_api_id": 8978,
+    "source_name": "java.lang.management.MemoryUsage",
+    "text": "The Java virtual machine may release memory to the system and committed could be less than init.",
+    "labels": [
+      91,
+      95,
+      "LT-2"
+    ],
+    "linked_entity_name": "java.lang.management.MemoryUsage.init",
+    "linked_id": 198636
+  },
+  {
+    "count": 15,
+    "mention": "max",
+    "source_api_id": 8978,
+    "source_name": "java.lang.management.MemoryUsage",
+    "text": "The amount of used and committed memory will always be less than or equal to max if max is defined.",
+    "labels": [
+      77,
+      80,
+      "LE-2"
+    ],
+    "linked_entity_name": "java.lang.management.MemoryUsage.max",
+    "linked_id": 198639
+  },
+  {
+    "count": 16,
+    "mention": "The reflected field",
+    "source_api_id": 9040,
+    "source_name": "java.lang.reflect.Field",
+    "text": "The reflected field may be a class (static) field or an instance field.",
+    "labels": [
+      0,
+      19,
+      "Type-1"
+    ],
+    "linked_entity_name": "java.lang.reflect.Field",
+    "linked_id": 9040
+  },
+  {
+    "count": 17,
+    "mention": "a proxy class",
+    "source_api_id": 9053,
+    "source_name": "java.lang.reflect.Proxy",
+    "text": "A proxy instance is an instance of a proxy class.",
+    "labels": [
+      35,
+      48,
+      "Type-2"
+    ],
+    "linked_entity_name": "java.lang.reflect.Proxy",
+    "linked_id": 9053
+  },
+  {
+    "count": 18,
+    "mention": "its invocation handler's invoke method",
+    "source_api_id": 9063,
+    "source_name": "java.lang.reflect.UndeclaredThrowableException",
+    "text": "Thrown by a method invocation on a proxy instance if its invocation handler's invoke method throws a checked exception (a Throwable that is not assignable to RuntimeException or Error) that is not assignable to any of the exception types declared in the throws clause of the method that was invoked on the proxy instance and dispatched to the invocation handler.",
+    "labels": [
+      53,
+      91,
+      "Throws-1"
+    ],
+    "linked_entity_name": "java.lang.reflect.InvocationHandler.invoke(java.lang.Object,java.lang.reflect.Method,java.lang.Object[])",
+    "linked_id": 102457
+  },
+  {
+    "count": 19,
+    "mention": "arrays of SimpleEntry instances",
+    "source_api_id": 9955,
+    "source_name": "java.util.AbstractMap.SimpleEntry",
+    "text": "For example, it may be convenient to return arrays of SimpleEntry instances in method Map.entrySet().toArray.",
+    "labels": [
+      44,
+      75,
+      "ReturnedBy-1"
+    ],
+    "linked_entity_name": "java.util.AbstractMap.SimpleEntry",
+    "linked_id": 9955
+  },
+  {
+    "count": 20,
+    "mention": "a NullPointerException",
+    "source_api_id": 10006,
+    "source_name": "java.util.Base64.Encoder",
+    "text": "Unless otherwise noted, passing a null argument to a method of this class will cause a NullPointerException to be thrown.",
+    "labels": [
+      85,
+      107,
+      "Thrown"
+    ],
+    "linked_entity_name": "java.lang.NullPointerException",
+    "linked_id": 464944
+  },
+  {
+    "count": 21,
+    "mention": "cancel",
+    "source_api_id": 10108,
+    "source_name": "java.util.concurrent.CompletableFuture",
+    "text": "Method cancel has the same effect as completeExceptionally(new CancellationException()).",
+    "labels": [
+      7,
+      13,
+      "SameUsage-1"
+    ],
+    "linked_entity_name": "java.util.concurrent.CompletableFuture.cancel(boolean)",
+    "linked_id": 114937
+  },
+  {
+    "count": 22,
+    "mention": "the value of a field (or a function of one or more fields) of the CountedCompleter object",
+    "source_api_id": 10232,
+    "source_name": "java.util.concurrent.CountedCompleter",
+    "text": "In general, this method should return the value of a field (or a function of one or more fields) of the CountedCompleter object that holds the result upon completion.",
+    "labels": [
+      38,
+      127,
+      "Returns-2"
+    ],
+    "linked_entity_name": "java.util.concurrent.CountedCompleter.completer",
+    "linked_id": 202762
+  },
+  {
+    "count": 23,
+    "mention": "NullPointerException",
+    "source_api_id": 10366,
+    "source_name": "java.util.DuplicateFormatFlagsException",
+    "text": "Unless otherwise specified, passing a null argument to any method or constructor in this class will cause a NullPointerException to be thrown.",
+    "labels": [
+      108,
+      128,
+      "Thrown"
+    ],
+    "linked_entity_name": "java.lang.NullPointerException",
+    "linked_id": 8995
+  },
+  {
+    "count": 24,
+    "mention": "m.containsKey(k)",
+    "source_api_id": 10505,
+    "source_name": "java.util.LinkedHashMap",
+    "text": "(A key k is reinserted into a map m if m.put(k, v) is invoked when m.containsKey(k) would return true immediately prior to the invocation.)",
+    "labels": [
+      67,
+      83,
+      "Returns-1"
+    ],
+    "linked_entity_name": "java.util.HashMap.containsKey(java.lang.Object)",
+    "linked_id": 117659
+  },
+  {
+    "count": 25,
+    "mention": "get()",
+    "source_api_id": 10573,
+    "source_name": "java.util.Optional",
+    "text": "If a value is present, isPresent() will return true and get() will return the value.",
+    "labels": [
+      56,
+      61,
+      "Returns-1"
+    ],
+    "linked_entity_name": "java.util.Optional.get()",
+    "linked_id": 118936
+  },
+  {
+    "count": 26,
+    "mention": "isPresent()",
+    "source_api_id": 10576,
+    "source_name": "java.util.OptionalLong",
+    "text": "If a value is present, isPresent() will return true and getAsLong() will return the value.",
+    "labels": [
+      23,
+      34,
+      "Returns-1"
+    ],
+    "linked_entity_name": "java.util.OptionalLong.isPresent()",
+    "linked_id": 118976
+  },
+  {
+    "count": 27,
+    "mention": "getAsLong()",
+    "source_api_id": 10576,
+    "source_name": "java.util.OptionalLong",
+    "text": "If a value is present, isPresent() will return true and getAsLong() will return the value.",
+    "labels": [
+      56,
+      67,
+      "Returns-1"
+    ],
+    "linked_entity_name": "java.util.OptionalLong.getAsLong()",
+    "linked_id": 118975
+  },
+  {
+    "count": 28,
+    "mention": "getRenderedImage",
+    "source_api_id": 11076,
+    "source_name": "javax.imageio.IIOImage",
+    "text": "Exactly one of getRenderedImage and getRaster will return a non-null value.",
+    "labels": [
+      15,
+      31,
+      "Returns-1"
+    ],
+    "linked_entity_name": "javax.imageio.IIOImage.getRenderedImage()",
+    "linked_id": 122748
+  },
+  {
+    "count": 29,
+    "mention": "NullPointerException",
+    "source_api_id": 11190,
+    "source_name": "javax.lang.model.util.ElementFilter",
+    "text": "If iterables and sets containing null are passed as arguments to methods in this class, a NullPointerException will be thrown.",
+    "labels": [
+      90,
+      110,
+      "Thrown"
+    ],
+    "linked_entity_name": "java.lang.NullPointerException",
+    "linked_id": 8995
+  },
+  {
+    "count": 30,
+    "mention": "This exception",
+    "source_api_id": 11360,
+    "source_name": "javax.management.relation.InvalidRoleValueException",
+    "text": "This exception is raised when, in a role, the number of referenced MBeans in given value is less than expected minimum degree, or the number of referenced MBeans in provided value exceeds expected maximum degree, or one referenced MBean in the value is not an Object of the MBean class expected for that role, or an MBean provided for that role does not exist.",
+    "labels": [
+      0,
+      14,
+      "Thrown"
+    ],
+    "linked_entity_name": "javax.management.relation.InvalidRoleValueException",
+    "linked_id": 11360
+  },
+  {
+    "count": 31,
+    "mention": "An object/attributes pair",
+    "source_api_id": 11536,
+    "source_name": "javax.naming.spi.DirStateFactory.Result",
+    "text": "An object/attributes pair for returning the result of DirStateFactory.getStateToBind().",
+    "labels": [
+      0,
+      25,
+      "ReturnedBy-1"
+    ],
+    "linked_entity_name": "javax.naming.spi.DirStateFactory.Result",
+    "linked_id": 11536
+  },
+  {
+    "count": 32,
+    "mention": "DirStateFactory.getStateToBind()",
+    "source_api_id": 11536,
+    "source_name": "javax.naming.spi.DirStateFactory.Result",
+    "text": "An object/attributes pair for returning the result of DirStateFactory.getStateToBind().",
+    "labels": [
+      54,
+      86,
+      "ReturnedBy-2"
+    ],
+    "linked_entity_name": "javax.naming.spi.DirStateFactory.getStateToBind(java.lang.Object,javax.naming.Name,javax.naming.Context,java.util.Hashtable<?,?>,javax.naming.directory.Attributes)",
+    "linked_id": 126889
+  },
+  {
+    "count": 33,
+    "mention": "JTree",
+    "source_api_id": 12053,
+    "source_name": "javax.swing.event.TreeExpansionEvent",
+    "text": "The source returned by getSource will be an instance of JTree.",
+    "labels": [
+      56,
+      61,
+      "Type-2"
+    ],
+    "linked_entity_name": [
+      "javax.swing.JTree",
+      [
+        "javax.swing.JTree",
+        "JTree"
+      ]
+    ],
+    "linked_id": 12270
+  },
+  {
+    "count": 34,
+    "mention": "UIDefaults",
+    "source_api_id": 12873,
+    "source_name": "javax.swing.plaf.nimbus.NimbusStyle",
+    "text": "If the value associated with this key is an instance of UIDefaults, then the values in that defaults table will override the standard Nimbus defaults in UIManager, but for that component instance only.",
+    "labels": [
+      56,
+      66,
+      "Type-2"
+    ],
+    "linked_entity_name": [
+      "javax.swing.UIDefaults",
+      [
+        "javax.swing.UIDefaults",
+        "UIDefaults"
+      ]
+    ],
+    "linked_id": 13598
+  },
+  {
+    "count": 35,
+    "mention": "the length of the Content",
+    "source_api_id": 13140,
+    "source_name": "javax.swing.text.AbstractDocument",
+    "text": "As a result of this, getLength returns one less than the length of the Content.",
+    "labels": [
+      53,
+      78,
+      "Returns-2"
+    ],
+    "linked_entity_name": "javax.swing.text.AbstractDocument.getContent().<P>length",
+    "linked_id": 142849
+  },
+  {
+    "count": 36,
+    "mention": "getLength",
+    "source_api_id": 13140,
+    "source_name": "javax.swing.text.AbstractDocument",
+    "text": "As a result of this, getLength returns one less than the length of the Content.",
+    "labels": [
+      21,
+      30,
+      "Returns-1"
+    ],
+    "linked_entity_name": [
+      "javax.swing.text.AbstractDocument.getLength()",
+      [
+        "javax.swing.text.AbstractDocument.getLength()",
+        "AbstractDocument.getLength",
+        "getLength"
+      ]
+    ],
+    "linked_id": 142817
+  },
+  {
+    "count": 37,
+    "mention": "AnyHolder",
+    "source_api_id": 13946,
+    "source_name": "org.omg.CORBA.AnyHolder",
+    "text": "If myAnyHolder is an instance of AnyHolder, the value stored in its value field can be accessed with myAnyHolder.value.",
+    "labels": [
+      33,
+      42,
+      "Type-2"
+    ],
+    "linked_entity_name": [
+      "org.omg.CORBA.AnyHolder",
+      [
+        "org.omg.CORBA.AnyHolder",
+        "AnyHolder"
+      ]
+    ],
+    "linked_id": 13946
+  },
+  {
+    "count": 38,
+    "mention": "BooleanHolder",
+    "source_api_id": 13961,
+    "source_name": "org.omg.CORBA.BooleanHolder",
+    "text": "If myBooleanHolder is an instance of BooleanHolder, the value stored in its value field can be accessed with myBooleanHolder.value.",
+    "labels": [
+      37,
+      50,
+      "Type-2"
+    ],
+    "linked_entity_name": [
+      "org.omg.CORBA.BooleanHolder",
+      [
+        "org.omg.CORBA.BooleanHolder",
+        "BooleanHolder"
+      ]
+    ],
+    "linked_id": 13961
+  },
+  {
+    "count": 39,
+    "mention": "ByteHolder",
+    "source_api_id": 13965,
+    "source_name": "org.omg.CORBA.ByteHolder",
+    "text": "If myByteHolder is an instance of ByteHolder, the value stored in its value field can be accessed with myByteHolder.value.",
+    "labels": [
+      34,
+      44,
+      "Type-2"
+    ],
+    "linked_entity_name": [
+      "org.omg.CORBA.ByteHolder",
+      [
+        "org.omg.CORBA.ByteHolder",
+        "ByteHolder"
+      ]
+    ],
+    "linked_id": 13965
+  },
+  {
+    "count": 40,
+    "mention": "CharHolder",
+    "source_api_id": 13966,
+    "source_name": "org.omg.CORBA.CharHolder",
+    "text": "If myCharHolder is an instance of CharHolder, the value stored in its value field can be accessed with myCharHolder.value.",
+    "labels": [
+      34,
+      44,
+      "Type-2"
+    ],
+    "linked_entity_name": [
+      "org.omg.CORBA.CharHolder",
+      [
+        "org.omg.CORBA.CharHolder",
+        "CharHolder"
+      ]
+    ],
+    "linked_id": 13966
+  },
+  {
+    "count": 41,
+    "mention": "DoubleHolder",
+    "source_api_id": 13988,
+    "source_name": "org.omg.CORBA.DoubleHolder",
+    "text": "If myDoubleHolder is an instance of DoubleHolder, the value stored in its value field can be accessed with myDoubleHolder.value.",
+    "labels": [
+      36,
+      48,
+      "Type-2"
+    ],
+    "linked_entity_name": [
+      "org.omg.CORBA.DoubleHolder",
+      [
+        "org.omg.CORBA.DoubleHolder",
+        "DoubleHolder"
+      ]
+    ],
+    "linked_id": 13988
+  },
+  {
+    "count": 42,
+    "mention": "FloatHolder",
+    "source_api_id": 14008,
+    "source_name": "org.omg.CORBA.FloatHolder",
+    "text": "If myFloatHolder is an instance of FloatHolder, the value stored in its value field can be accessed with myFloatHolder.value.",
+    "labels": [
+      35,
+      46,
+      "Type-2"
+    ],
+    "linked_entity_name": [
+      "org.omg.CORBA.FloatHolder",
+      [
+        "org.omg.CORBA.FloatHolder",
+        "FloatHolder"
+      ]
+    ],
+    "linked_id": 14008
+  },
+  {
+    "count": 43,
+    "mention": "IntHolder",
+    "source_api_id": 14020,
+    "source_name": "org.omg.CORBA.IntHolder",
+    "text": "If myIntHolder is an instance of IntHolder, the value stored in its value field can be accessed with myIntHolder.value.",
+    "labels": [
+      33,
+      42,
+      "Type-2"
+    ],
+    "linked_entity_name": [
+      "org.omg.CORBA.IntHolder",
+      [
+        "org.omg.CORBA.IntHolder",
+        "IntHolder"
+      ]
+    ],
+    "linked_id": 14020
+  },
+  {
+    "count": 44,
+    "mention": "LongHolder",
+    "source_api_id": 14030,
+    "source_name": "org.omg.CORBA.LongHolder",
+    "text": "If myLongHolder is an instance of LongHolder, the value stored in its value field can be accessed with myLongHolder.value.",
+    "labels": [
+      34,
+      44,
+      "Type-2"
+    ],
+    "linked_entity_name": [
+      "org.omg.CORBA.LongHolder",
+      [
+        "org.omg.CORBA.LongHolder",
+        "LongHolder"
+      ]
+    ],
+    "linked_id": 14030
+  },
+  {
+    "count": 45,
+    "mention": "ObjectHolder",
+    "source_api_id": 14047,
+    "source_name": "org.omg.CORBA.ObjectHolder",
+    "text": "If myObjectHolder is an instance of ObjectHolder, the value stored in its value field can be accessed with myObjectHolder.value.",
+    "labels": [
+      36,
+      48,
+      "Type-2"
+    ],
+    "linked_entity_name": [
+      "org.omg.CORBA.ObjectHolder",
+      [
+        "org.omg.CORBA.ObjectHolder",
+        "ObjectHolder"
+      ]
+    ],
+    "linked_id": 14047
+  },
+  {
+    "count": 46,
+    "mention": "ServiceInformationHolder",
+    "source_api_id": 14103,
+    "source_name": "org.omg.CORBA.ServiceInformationHolder",
+    "text": "If myServiceInformationHolder is an instance of ServiceInformationHolder, the value stored in its value field can be accessed with myServiceInformationHolder.value.",
+    "labels": [
+      48,
+      72,
+      "Type-2"
+    ],
+    "linked_entity_name": [
+      "org.omg.CORBA.ServiceInformationHolder",
+      [
+        "org.omg.CORBA.ServiceInformationHolder",
+        "ServiceInformationHolder"
+      ]
+    ],
+    "linked_id": 14103
+  },
+  {
+    "count": 47,
+    "mention": "ShortHolder",
+    "source_api_id": 14106,
+    "source_name": "org.omg.CORBA.ShortHolder",
+    "text": "If myShortHolder is an instance of ShortHolder, the value stored in its value field can be accessed with myShortHolder.value.",
+    "labels": [
+      35,
+      46,
+      "Type-2"
+    ],
+    "linked_entity_name": [
+      "org.omg.CORBA.ShortHolder",
+      [
+        "org.omg.CORBA.ShortHolder",
+        "ShortHolder"
+      ]
+    ],
+    "linked_id": 14106
+  },
+  {
+    "count": 48,
+    "mention": "StringHolder",
+    "source_api_id": 14109,
+    "source_name": "org.omg.CORBA.StringHolder",
+    "text": "If myStringHolder is an instance of StringHolder, the value stored in its value field can be accessed with myStringHolder.value.",
+    "labels": [
+      36,
+      48,
+      "Type-2"
+    ],
+    "linked_entity_name": [
+      "org.omg.CORBA.StringHolder",
+      [
+        "org.omg.CORBA.StringHolder",
+        "StringHolder"
+      ]
+    ],
+    "linked_id": 14109
+  },
+  {
+    "count": 49,
+    "mention": "TypeCodeHolder",
+    "source_api_id": 14124,
+    "source_name": "org.omg.CORBA.TypeCodeHolder",
+    "text": "If myTypeCodeHolder is an instance of TypeCodeHolder, the value stored in its value field can be accessed with myTypeCodeHolder.value.",
+    "labels": [
+      38,
+      52,
+      "Type-2"
+    ],
+    "linked_entity_name": [
+      "org.omg.CORBA.TypeCodeHolder",
+      [
+        "org.omg.CORBA.TypeCodeHolder",
+        "TypeCodeHolder"
+      ]
+    ],
+    "linked_id": 14124
+  },
+  {
+    "count": 50,
+    "mention": "ValueBaseHolder",
+    "source_api_id": 14143,
+    "source_name": "org.omg.CORBA.ValueBaseHolder",
+    "text": "If myValueBaseHolder is an instance of ValueBaseHolder, the value stored in its value field can be accessed with myValueBaseHolder.value.",
+    "labels": [
+      39,
+      54,
+      "Type-2"
+    ],
+    "linked_entity_name": [
+      "org.omg.CORBA.ValueBaseHolder",
+      [
+        "org.omg.CORBA.ValueBaseHolder",
+        "ValueBaseHolder"
+      ]
+    ],
+    "linked_id": 14143
+  },
+  {
+    "count": 51,
+    "mention": "create_dyn_any()",
+    "source_api_id": 14228,
+    "source_name": "org.omg.DynamicAny.DynAnyFactory",
+    "text": "Dynamic interpretation of an any usually involves creating a DynAny object using create_dyn_any() as the first step.",
+    "labels": [
+      81,
+      97,
+      "ReturnedBy-2"
+    ],
+    "linked_entity_name": [
+      "org.omg.DynamicAny.DynAnyFactoryOperations.create_dyn_any(org.omg.CORBA.Any)",
+      [
+        "org.omg.DynamicAny.DynAnyFactoryOperations.create_dyn_any(org.omg.CORBA.Any)",
+        "create_dyn_any",
+        "DynAnyFactoryOperations.create_dyn_any"
+      ]
+    ],
+    "linked_id": 151162
+  },
+  {
+    "count": 52,
+    "mention": "a cached instance of AWTKeyStroke (or a subclass of AWTKeyStroke)",
+    "source_api_id": 91462,
+    "source_name": "java.awt.AWTKeyStroke.readResolve()",
+    "text": "Returns a cached instance of AWTKeyStroke (or a subclass of AWTKeyStroke) which is equal to this instance.",
+    "labels": [
+      8,
+      73,
+      "Returned"
+    ],
+    "linked_entity_name": [
+      "java.awt.AWTKeyStroke",
+      [
+        "java.awt.AWTKeyStroke",
+        "AWTKeyStroke"
+      ]
+    ],
+    "linked_id": 8064
+  },
+  {
+    "count": 53,
+    "mention": "The value",
+    "source_api_id": 97512,
+    "source_name": "java.awt.Window.getShape()",
+    "text": "The value returned by this method may not be the same as previously set with setShape(shape), but it is guaranteed to represent the same shape.",
+    "labels": [
+      0,
+      9,
+      "Returned"
+    ],
+    "linked_entity_name": [
+      "java.awt.Window.getShape().<R>",
+      [
+        "java.awt.Shape",
+        "java.awt.Shape"
+      ]
+    ],
+    "linked_id": 460408
+  },
+  {
+    "count": 54,
+    "mention": "This method",
+    "source_api_id": 100056,
+    "source_name": "java.lang.Class.getClassLoader()",
+    "text": "This method will return null in such implementations if this class was loaded by the bootstrap class loader.",
+    "labels": [
+      0,
+      11,
+      "Returns-1"
+    ],
+    "linked_entity_name": [
+      "java.lang.Class.getClassLoader()",
+      [
+        "java.lang.Class.getClassLoader()",
+        "getClassLoader",
+        "Class.getClassLoader"
+      ]
+    ],
+    "linked_id": 100056
+  },
+  {
+    "count": 55,
+    "mention": "null",
+    "source_api_id": 100056,
+    "source_name": "java.lang.Class.getClassLoader()",
+    "text": "This method will return null in such implementations if this class was loaded by the bootstrap class loader.",
+    "labels": [
+      24,
+      28,
+      "Returns-2"
+    ],
+    "linked_entity_name": [
+      "java.lang.Class.getClassLoader().<R>",
+      [
+        "java.lang.ClassLoader",
+        "java.lang.ClassLoader"
+      ]
+    ],
+    "linked_id": 462952
+  },
+  {
+    "count": 56,
+    "mention": "null",
+    "source_api_id": 100069,
+    "source_name": "java.lang.Class.getEnclosingMethod()",
+    "text": "Returns null otherwise.",
+    "labels": [
+      8,
+      12,
+      "Returned"
+    ],
+    "linked_entity_name": "java.lang.Class.getEnclosingMethod().<R>",
+    "linked_id": 462965
+  },
+  {
+    "count": 57,
+    "mention": "this method",
+    "source_api_id": 102104,
+    "source_name": "java.lang.Process.getInputStream()",
+    "text": "If the standard output of the subprocess has been redirected using ProcessBuilder.redirectOutput then this method will return a null input stream.",
+    "labels": [
+      102,
+      113,
+      "Returns-1"
+    ],
+    "linked_entity_name": [
+      "java.lang.Process.getInputStream()",
+      [
+        "java.lang.Process.getInputStream()",
+        "getInputStream",
+        "Process.getInputStream"
+      ]
+    ],
+    "linked_id": 102104
+  },
+  {
+    "count": 58,
+    "mention": "a null input stream",
+    "source_api_id": 102104,
+    "source_name": "java.lang.Process.getInputStream()",
+    "text": "If the standard output of the subprocess has been redirected using ProcessBuilder.redirectOutput then this method will return a null input stream.",
+    "labels": [
+      126,
+      145,
+      "Returns-2"
+    ],
+    "linked_entity_name": [
+      "java.lang.Process.getInputStream().<R>",
+      [
+        "java.io.InputStream",
+        "java.io.InputStream"
+      ]
+    ],
+    "linked_id": 465000
+  },
+  {
+    "count": 59,
+    "mention": "command()",
+    "source_api_id": 102148,
+    "source_name": "java.lang.ProcessBuilder.start()",
+    "text": "The new process will invoke the command and arguments given by command(), in a working directory as given by directory(), with a process environment as given by environment().",
+    "labels": [
+      63,
+      72,
+      "ReturnedBy-2"
+    ],
+    "linked_entity_name": [
+      "java.lang.ProcessBuilder.command(java.util.List<java.lang.String>)",
+      [
+        "java.lang.ProcessBuilder.command(java.util.List<java.lang.String>)",
+        "command",
+        "ProcessBuilder.command"
+      ]
+    ],
+    "linked_id": 102117
+  },
+  {
+    "count": 60,
+    "mention": "directory()",
+    "source_api_id": 102148,
+    "source_name": "java.lang.ProcessBuilder.start()",
+    "text": "The new process will invoke the command and arguments given by command(), in a working directory as given by directory(), with a process environment as given by environment().",
+    "labels": [
+      109,
+      120,
+      "ReturnedBy-2"
+    ],
+    "linked_entity_name": [
+      "java.lang.ProcessBuilder.directory(java.io.File)",
+      [
+        "java.lang.ProcessBuilder.directory(java.io.File)",
+        "ProcessBuilder.directory",
+        "directory"
+      ]
+    ],
+    "linked_id": 102123
+  },
+  {
+    "count": 61,
+    "mention": "a process environment",
+    "source_api_id": 102148,
+    "source_name": "java.lang.ProcessBuilder.start()",
+    "text": "The new process will invoke the command and arguments given by command(), in a working directory as given by directory(), with a process environment as given by environment().",
+    "labels": [
+      127,
+      148,
+      "ReturnedBy-1"
+    ],
+    "linked_entity_name": "java.lang.ProcessBuilder.environment().<R>",
+    "linked_id": 465016
+  },
+  {
+    "count": 62,
+    "mention": "environment()",
+    "source_api_id": 102148,
+    "source_name": "java.lang.ProcessBuilder.start()",
+    "text": "The new process will invoke the command and arguments given by command(), in a working directory as given by directory(), with a process environment as given by environment().",
+    "labels": [
+      161,
+      174,
+      "ReturnedBy-2"
+    ],
+    "linked_entity_name": [
+      "java.lang.ProcessBuilder.environment()",
+      [
+        "java.lang.ProcessBuilder.environment()",
+        "ProcessBuilder.environment",
+        "environment"
+      ]
+    ],
+    "linked_id": 102120
+  },
+  {
+    "count": 63,
+    "mention": "k",
+    "source_api_id": 102940,
+    "source_name": "java.lang.StringBuffer.append(java.lang.StringBuffer)",
+    "text": "Then the character at index k in the new character sequence is equal to the character at index k in the old character sequence, if k is less than n; otherwise, it is equal to the character at index k-n in the argument sb.",
+    "labels": [
+      131,
+      132,
+      "LT-1"
+    ],
+    "linked_entity_name": [
+      "java.lang.StringBuffer.append(java.lang.StringBuffer).<R>",
+      [
+        "java.lang.StringBuffer",
+        "java.lang.StringBuffer"
+      ]
+    ],
+    "linked_id": 465836
+  },
+  {
+    "count": 64,
+    "mention": "it",
+    "source_api_id": 102940,
+    "source_name": "java.lang.StringBuffer.append(java.lang.StringBuffer)",
+    "text": "Then the character at index k in the new character sequence is equal to the character at index k in the old character sequence, if k is less than n; otherwise, it is equal to the character at index k-n in the argument sb.",
+    "labels": [
+      160,
+      162,
+      "EQ-1"
+    ],
+    "linked_entity_name": [
+      "java.lang.StringBuffer.append(java.lang.StringBuffer).<R>",
+      [
+        "java.lang.StringBuffer",
+        "java.lang.StringBuffer"
+      ]
+    ],
+    "linked_id": 465836
+  },
+  {
+    "count": 65,
+    "mention": "n",
+    "source_api_id": 103347,
+    "source_name": "java.math.BigDecimal.movePointLeft(int)",
+    "text": "If n is non-negative, the call merely adds n to the scale.",
+    "labels": [
+      3,
+      4,
+      "Nonnegative"
+    ],
+    "linked_entity_name": [
+      "java.math.BigDecimal.movePointLeft(int).<P>n",
+      [
+        "n",
+        "movePointLeft",
+        "move Point Left"
+      ]
+    ],
+    "linked_id": 319885
+  },
+  {
+    "count": 66,
+    "mention": "n",
+    "source_api_id": 103348,
+    "source_name": "java.math.BigDecimal.movePointRight(int)",
+    "text": "If n is non-negative, the call merely subtracts n from the scale.",
+    "labels": [
+      3,
+      4,
+      "Nonnegative"
+    ],
+    "linked_entity_name": [
+      "java.math.BigDecimal.movePointRight(int).<P>n",
+      [
+        "n",
+        "movePointRight",
+        "move Point Right"
+      ]
+    ],
+    "linked_id": 319886
+  },
+  {
+    "count": 67,
+    "mention": "n",
+    "source_api_id": 103549,
+    "source_name": "java.math.BigInteger.shiftRight(int)",
+    "text": "The shift distance, n, may be negative, in which case this method performs a left shift.",
+    "labels": [
+      20,
+      21,
+      "Negativeable"
+    ],
+    "linked_entity_name": [
+      "java.math.BigInteger.shiftRight(int).<R>",
+      [
+        "java.math.BigInteger",
+        "java.math.BigInteger"
+      ]
+    ],
+    "linked_id": 466445
+  },
+  {
+    "count": 68,
+    "mention": "width",
+    "source_api_id": 8505,
+    "source_name": "java.awt.Rectangle",
+    "text": "A Rectangle whose width or height is negative has neither location nor dimension along those axes with negative dimensions.",
+    "labels": [
+      18,
+      23,
+      "Negative"
+    ],
+    "linked_entity_name": "java.awt.Rectangle.width",
+    "linked_id": 196515
+  },
+  {
+    "count": 69,
+    "mention": "Character.isLetter(0x2F81A)",
+    "source_api_id": 8833,
+    "source_name": "java.lang.Character",
+    "text": "For example, Character.isLetter(0x2F81A) returns true because the code point value represents a letter (a CJK ideograph).",
+    "labels": [
+      13,
+      40,
+      "Returns-1"
+    ],
+    "linked_entity_name": [
+      "java.lang.Character.isLetterOrDigit(int)",
+      [
+        "java.lang.Character.isLetterOrDigit(int)",
+        "isLetterOrDigit",
+        "Character.isLetterOrDigit"
+      ]
+    ],
+    "linked_id": 99811
+  },
+  {
+    "count": 70,
+    "mention": "a class (static) field or an instance field",
+    "source_api_id": 9040,
+    "source_name": "java.lang.reflect.Field",
+    "text": "The reflected field may be a class (static) field or an instance field.",
+    "labels": [
+      27,
+      70,
+      "Type-2"
+    ],
+    "linked_entity_name": "java.lang.reflect.Field",
+    "linked_id": 9040
+  },
+  {
+    "count": 71,
+    "mention": "the attribute value",
+    "source_api_id": 11292,
+    "source_name": "javax.management.monitor.GaugeMonitor",
+    "text": "Subsequent crossings of the low threshold value do not cause further notifications unless the attribute value becomes equal to or greater than the high threshold value.",
+    "labels": [
+      90,
+      109,
+      "GE-1"
+    ],
+    "linked_entity_name": "javax.management.monitor.GaugeMonitor.isThresholdTypeValid(javax.management.ObjectName,java.lang.String,java.lang.Comparable<?>).<P>attribute",
+    "linked_id": 343544
+  },
+  {
+    "count": 72,
+    "mention": "SQLData",
+    "source_api_id": 11898,
+    "source_name": "javax.sql.rowset.serial.SQLOutputImpl",
+    "text": "If the value to be written is an instance of SQLData, the driver will create an instance of SQLOutputImpl and pass it to the method SQLData.writeSQL.",
+    "labels": [
+      45,
+      52,
+      "Type-2"
+    ],
+    "linked_entity_name": "java.sql.SQLData",
+    "linked_id": 9768
+  },
+  {
+    "count": 73,
+    "mention": "FileView",
+    "source_api_id": 12069,
+    "source_name": "javax.swing.filechooser.FileView",
+    "text": "If FileView returns null for any method, JFileChooser then uses the L&F specific view to get the information.",
+    "labels": [
+      3,
+      11,
+      "Returns-1"
+    ],
+    "linked_entity_name": "javax.swing.filechooser.FileView",
+    "linked_id": 12069
+  },
+  {
+    "count": 74,
+    "mention": "null",
+    "source_api_id": 12069,
+    "source_name": "javax.swing.filechooser.FileView",
+    "text": "If FileView returns null for any method, JFileChooser then uses the L&F specific view to get the information.",
+    "labels": [
+      20,
+      24,
+      "Returns-2"
+    ],
+    "linked_entity_name": [
+      "javax.swing.filechooser.FileView.isTraversable(java.io.File).<R>",
+      [
+        "java.lang.Boolean",
+        "java.lang.Boolean"
+      ]
+    ],
+    "linked_id": 12069
+  },
+  {
+    "count": 75,
+    "mention": "The DynValue",
+    "source_api_id": 14258,
+    "source_name": "org.omg.DynamicAny.DynValue",
+    "text": "The DynValue interface can represent both null and non-null value types.",
+    "labels": [
+      0,
+      12,
+      "Nullable"
+    ],
+    "linked_entity_name": "org.omg.DynamicAny.DynValue",
+    "linked_id": 14258
+  },
+  {
+    "count": 76,
+    "mention": "a value",
+    "source_api_id": 91936,
+    "source_name": "java.awt.Component.getBaselineResizeBehavior()",
+    "text": "OTHER even if getBaseline returns a value less than 0.",
+    "labels": [
+      34,
+      41,
+      "Returned"
+    ],
+    "linked_entity_name": [
+      "java.awt.Component.getBaselineResizeBehavior().<R>",
+      [
+        "java.awt.Component.BaselineResizeBehavior",
+        "java.awt.Component.BaselineResizeBehavior"
+      ]
+    ],
+    "linked_id": 454832
+  },
+  {
+    "count": 77,
+    "mention": "null",
+    "source_api_id": 100069,
+    "source_name": "java.lang.Class.getEnclosingMethod()",
+    "text": "Returns null otherwise.",
+    "labels": [
+      8,
+      12,
+      "Returned"
+    ],
+    "linked_entity_name": "java.lang.Class.getEnclosingMethod().<R>",
+    "linked_id": 462965
+  },
+  {
+    "count": 78,
+    "mention": "a working directory",
+    "source_api_id": 102148,
+    "source_name": "java.lang.ProcessBuilder.start()",
+    "text": "The new process will invoke the command and arguments given by command(), in a working directory as given by directory(), with a process environment as given by environment().",
+    "labels": [
+      77,
+      96,
+      "ReturnedBy-1"
+    ],
+    "linked_entity_name": "java.lang.ProcessBuilder.directory().<R>",
+    "linked_id": 465018
+  },
+  {
+    "count": 79,
+    "mention": "a process environment",
+    "source_api_id": 102148,
+    "source_name": "java.lang.ProcessBuilder.start()",
+    "text": "The new process will invoke the command and arguments given by command(), in a working directory as given by directory(), with a process environment as given by environment().",
+    "labels": [
+      127,
+      148,
+      "ReturnedBy-1"
+    ],
+    "linked_entity_name": "java.lang.ProcessBuilder.environment().<R>",
+    "linked_id": 465016
+  },
+  {
+    "count": 80,
+    "mention": "the child index",
+    "source_name": "javax.swing.text.BoxView.paintChild(java.awt.Graphics,java.awt.Rectangle,int).<P>index",
+    "source_api_id": 366666,
+    "text": "the child index, >= 0 && < getViewCount()",
+    "labels": [
+      0,
+      15,
+      "GE-1"
+    ],
+    "linked_entity_name": "javax.swing.text.BoxView.paintChild(java.awt.Graphics,java.awt.Rectangle,int).<P>index",
+    "linked_id": 366666
+  },
+  {
+    "count": 81,
+    "mention": "The returned value",
+    "source_name": "javax.management.loading.MLet.check(java.lang.String,java.net.URL,java.lang.String,javax.management.loading.MLetContent).<R>",
+    "source_api_id": 487083,
+    "text": "The returned value should not be null.",
+    "labels": [
+      0,
+      18,
+      "NEQ-1"
+    ],
+    "linked_entity_name": "javax.management.loading.MLet.check(java.lang.String,java.net.URL,java.lang.String,javax.management.loading.MLetContent).<R>",
+    "linked_id": 487083
+  },
+  {
+    "count": 82,
+    "mention": "the row",
+    "source_name": "javax.swing.text.TableView.GridCell.setGridLocation(int,int).<P>row",
+    "source_api_id": 370561,
+    "text": "the row >= 0",
+    "labels": [
+      0,
+      7,
+      "GE-1"
+    ],
+    "linked_entity_name": "javax.swing.text.TableView.GridCell.setGridLocation(int,int).<P>row",
+    "linked_id": 370561
+  },
+  {
+    "count": 83,
+    "mention": "the specified Object",
+    "source_name": "com.sun.security.auth.SolarisNumericGroupPrincipal.equals(java.lang.Object).<R>",
+    "source_api_id": 453574,
+    "text": "true if the specified Object is equal equal to this SolarisNumericGroupPrincipal.",
+    "labels": [
+      8,
+      28,
+      "EQ-1"
+    ],
+    "linked_entity_name": "com.sun.security.auth.SolarisNumericGroupPrincipal.equals(java.lang.Object).<P>o",
+    "linked_id": 304854
+  },
+  {
+    "count": 84,
+    "mention": "p1",
+    "source_name": "javax.swing.text.WrappedPlainView.drawLine(int,int,java.awt.Graphics,int,int).<P>p1",
+    "source_api_id": 370841,
+    "text": "the ending document location to use >= p1",
+    "labels": [
+      39,
+      41,
+      "GE-2"
+    ],
+    "linked_entity_name": "javax.swing.text.WrappedPlainView.drawLine(int,int,java.awt.Graphics,int,int).<P>p1",
+    "linked_id": 370841
+  },
+  {
+    "count": 85,
+    "mention": "the length of the desired string",
+    "source_name": "javax.swing.text.Document.getText(int,int,javax.swing.text.Segment).<P>length",
+    "source_api_id": 367262,
+    "text": "the length of the desired string >= 0",
+    "labels": [
+      0,
+      32,
+      "GE-1"
+    ],
+    "linked_entity_name": "javax.swing.text.Document.getText(int,int,javax.swing.text.Segment).<P>length",
+    "linked_id": 367262
+  },
+  {
+    "count": 86,
+    "mention": "AUTO",
+    "source_name": "javafx.scene.layout.BackgroundSize.BackgroundSize(double,double,boolean,boolean,boolean,boolean).<P>height",
+    "source_api_id": 260280,
+    "text": "Cannot be less than 0, except for the value of AUTO.",
+    "labels": [
+      47,
+      51,
+      "EQ-2"
+    ],
+    "linked_entity_name": "javafx.scene.layout.BackgroundSize.AUTO",
+    "linked_id": 168698
+  },
+  {
+    "count": 87,
+    "mention": "the conversion state",
+    "source_name": "java.awt.im.InputMethodHighlight.InputMethodHighlight(boolean,int,int,java.util.Map<java.awt.font.TextAttribute,?>).<P>state",
+    "source_api_id": 309745,
+    "text": "the conversion state for the text range - RAW_TEXT or CONVERTED_TEXT",
+    "labels": [
+      0,
+      39,
+      "EQ-1"
+    ],
+    "linked_entity_name": "java.awt.im.InputMethodHighlight.InputMethodHighlight(boolean,int,int,java.util.Map<java.awt.font.TextAttribute,?>).<P>state",
+    "linked_id": 309745
+  },
+  {
+    "count": 88,
+    "mention": "RAW_TEXT",
+    "source_name": "java.awt.im.InputMethodHighlight.InputMethodHighlight(boolean,int,int,java.util.Map<java.awt.font.TextAttribute,?>).<P>state",
+    "source_api_id": 309745,
+    "text": "the conversion state for the text range - RAW_TEXT or CONVERTED_TEXT",
+    "labels": [
+      42,
+      50,
+      "EQ-2"
+    ],
+    "linked_entity_name": "java.awt.im.InputMethodHighlight.RAW_TEXT",
+    "linked_id": 195641
+  },
+  {
+    "count": 89,
+    "mention": "CONVERTED_TEXT",
+    "source_name": "java.awt.im.InputMethodHighlight.InputMethodHighlight(boolean,int,int,java.util.Map<java.awt.font.TextAttribute,?>).<P>state",
+    "source_api_id": 309745,
+    "text": "the conversion state for the text range - RAW_TEXT or CONVERTED_TEXT",
+    "labels": [
+      54,
+      68,
+      "EQ-2"
+    ],
+    "linked_entity_name": "java.awt.im.InputMethodHighlight.CONVERTED_TEXT",
+    "linked_id": 195642
+  },
+  {
+    "count": 90,
+    "mention": "the years to subtract",
+    "source_name": "java.time.chrono.ChronoLocalDateImpl.minusYears(long).<P>yearsToSubtract",
+    "source_api_id": 328131,
+    "text": "the years to subtract, may be negative",
+    "labels": [
+      0,
+      21,
+      "Negativeable"
+    ],
+    "linked_entity_name": "java.time.chrono.ChronoLocalDateImpl.minusYears(long).<P>yearsToSubtract",
+    "linked_id": 328131
+  },
+  {
+    "count": 91,
+    "mention": "it",
+    "source_name": "com.sun.org.apache.xerces.internal.xs.datatypes.XSDateTime.getMonths().<R>",
+    "source_api_id": 446589,
+    "text": "months - can be negative only for duration types; For duration types, it returns years*12 + months",
+    "labels": [
+      70,
+      72,
+      "Returns-1"
+    ],
+    "linked_entity_name": "com.sun.org.apache.xerces.internal.xs.datatypes.XSDateTime.getMonths()",
+    "linked_id": 83693
+  },
+  {
+    "count": 92,
+    "mention": "the length of the change",
+    "source_name": "javax.swing.text.AbstractDocument.DefaultDocumentEvent.DefaultDocumentEvent(int,int,javax.swing.event.DocumentEvent.EventType).<P>len",
+    "source_api_id": 366417,
+    "text": "the length of the change >= 0",
+    "labels": [
+      0,
+      24,
+      "GE-1"
+    ],
+    "linked_entity_name": "javax.swing.text.AbstractDocument.DefaultDocumentEvent.DefaultDocumentEvent(int,int,javax.swing.event.DocumentEvent.EventType).<P>len",
+    "linked_id": 366417
+  },
+  {
+    "count": 93,
+    "mention": "the preferred size",
+    "source_name": "javax.swing.SizeRequirements.SizeRequirements(int,int,int,float).<P>pref",
+    "source_api_id": 365690,
+    "text": "the preferred size >= 0",
+    "labels": [
+      0,
+      18,
+      "GE-1"
+    ],
+    "linked_entity_name": "javax.swing.SizeRequirements.SizeRequirements(int,int,int,float).<P>pref",
+    "linked_id": 365690
+  },
+  {
+    "count": 94,
+    "mention": "This",
+    "source_name": "javax.swing.text.View.replace(int,int,javax.swing.text.View[]).<P>offset",
+    "source_api_id": 370757,
+    "text": "This should be a value >= 0 and <= getViewCount",
+    "labels": [
+      0,
+      4,
+      "GE-1"
+    ],
+    "linked_entity_name": "javax.swing.text.View.replace(int,int,javax.swing.text.View[]).<P>offset",
+    "linked_id": 370757
+  },
+  {
+    "count": 95,
+    "mention": "the bound for the wstring",
+    "source_name": "org.omg.CORBA.ORB.create_wstring_tc(int).<P>bound",
+    "source_api_id": 374627,
+    "text": "the bound for the wstring; cannot be negative",
+    "labels": [
+      0,
+      25,
+      "Nonnegative"
+    ],
+    "linked_entity_name": "org.omg.CORBA.ORB.create_wstring_tc(int).<P>bound",
+    "linked_id": 374627
+  },
+  {
+    "count": 96,
+    "mention": "The externally visible stub",
+    "source_name": "com.sun.corba.se.impl.presentation.rmi.StubConnectImpl.connect(com.sun.corba.se.impl.ior.StubIORImpl,org.omg.CORBA.Object,org.omg.CORBA.portable.ObjectImpl,org.omg.CORBA.ORB).<P>proxy",
+    "source_api_id": 272052,
+    "text": "The externally visible stub seen by the user (may be the same as stub)",
+    "labels": [
+      0,
+      27,
+      "CanEQ-1"
+    ],
+    "linked_entity_name": "com.sun.corba.se.impl.presentation.rmi.StubConnectImpl.connect(com.sun.corba.se.impl.ior.StubIORImpl,org.omg.CORBA.Object,org.omg.CORBA.portable.ObjectImpl,org.omg.CORBA.ORB).<P>stub",
+    "linked_id": 272053
+  },
+  {
+    "count": 97,
+    "mention": "Valid values",
+    "source_name": "java.text.CharacterIterator.setIndex(int).<P>position",
+    "source_api_id": 327414,
+    "text": "Valid values range from getBeginIndex() to getEndIndex().",
+    "labels": [
+      0,
+      12,
+      "GE-1"
+    ],
+    "linked_entity_name": "java.text.CharacterIterator.setIndex(int).<P>position",
+    "linked_id": 327414
+  },
+  {
+    "count": 98,
+    "mention": "This",
+    "source_name": "javax.management.MBeanConstructorInfo.MBeanConstructorInfo(java.lang.String,java.lang.String,javax.management.MBeanParameterInfo[],javax.management.Descriptor).<P>signature",
+    "source_api_id": 342944,
+    "text": "This may be null with the same effect as a zero-length array.",
+    "labels": [
+      0,
+      4,
+      "CanEQ-1"
+    ],
+    "linked_entity_name": "javax.management.MBeanConstructorInfo.MBeanConstructorInfo(java.lang.String,java.lang.String,javax.management.MBeanParameterInfo[],javax.management.Descriptor).<P>signature",
+    "linked_id": 342944
+  },
+  {
+    "count": 99,
+    "mention": "SQL NULL",
+    "source_name": "java.sql.ResultSet.getFloat(int).<R>",
+    "source_api_id": 472473,
+    "text": "the column value; if the value is SQL NULL, the value returned is 0",
+    "labels": [
+      34,
+      42,
+      "EQ-2"
+    ],
+    "linked_entity_name": "java.sql.Types.NULL",
+    "linked_id": 200844
+  },
+  {
+    "count": 100,
+    "mention": "the number of characters to remove",
+    "source_name": "javax.swing.text.AbstractDocument.remove(int,int).<P>len",
+    "source_api_id": 366442,
+    "text": "the number of characters to remove >= 0",
+    "labels": [
+      0,
+      34,
+      "GE-1"
+    ],
+    "linked_entity_name": "javax.swing.text.AbstractDocument.remove(int,int).<P>len",
+    "linked_id": 366442
+  },
+  {
+    "count": 101,
+    "mention": "this parameter",
+    "source_name": "javax.management.remote.rmi.RMIConnection.fetchNotifications(long,int,long).<P>timeout",
+    "source_api_id": 344733,
+    "text": "The behavior is unspecified if this parameter is negative.",
+    "labels": [
+      31,
+      45,
+      "Negative"
+    ],
+    "linked_entity_name": "javax.management.remote.rmi.RMIConnection.fetchNotifications(long,int,long).<P>timeout",
+    "linked_id": 344733
+  },
+  {
+    "count": 102,
+    "mention": "the start of the change",
+    "source_name": "javax.swing.text.StyledDocument.setParagraphAttributes(int,int,javax.swing.text.AttributeSet,boolean).<P>offset",
+    "source_api_id": 370449,
+    "text": "the start of the change >= 0",
+    "labels": [
+      0,
+      23,
+      "GE-1"
+    ],
+    "linked_entity_name": "javax.swing.text.StyledDocument.setParagraphAttributes(int,int,javax.swing.text.AttributeSet,boolean).<P>offset",
+    "linked_id": 370449
+  },
+  {
+    "count": 103,
+    "mention": "String Value of this node",
+    "source_name": "com.sun.org.apache.xml.internal.dtm.ref.DTMDocumentImpl.getNodeValue(int).<R>",
+    "source_api_id": 447389,
+    "text": "String Value of this node, or null if not meaningful for this node type.",
+    "labels": [
+      0,
+      25,
+      "Returned"
+    ],
+    "linked_entity_name": "com.sun.org.apache.xml.internal.dtm.ref.DTMDocumentImpl.getNodeValue(int).<R>",
+    "linked_id": 447389
+  },
+  {
+    "count": 104,
+    "mention": "The size of the locked region",
+    "source_name": "java.nio.channels.FileLock.FileLock(java.nio.channels.FileChannel,long,long,boolean).<P>size",
+    "source_api_id": 322642,
+    "text": "The size of the locked region; must be non-negative, and the sum position + size must be non-negative",
+    "labels": [
+      0,
+      29,
+      "Nonnegative"
+    ],
+    "linked_entity_name": "java.nio.channels.FileLock.FileLock(java.nio.channels.FileChannel,long,long,boolean).<P>size",
+    "linked_id": 322642
+  },
+  {
+    "count": 105,
+    "mention": "the weeks to add",
+    "source_name": "java.time.chrono.ChronoLocalDateImpl.plusWeeks(long).<P>weeksToAdd",
+    "source_api_id": 328129,
+    "text": "the weeks to add, may be negative",
+    "labels": [
+      0,
+      16,
+      "Negativeable"
+    ],
+    "linked_entity_name": "java.time.chrono.ChronoLocalDateImpl.plusWeeks(long).<P>weeksToAdd",
+    "linked_id": 328129
+  },
+  {
+    "count": 106,
+    "mention": "the distance into the view",
+    "source_name": "javax.swing.text.GlyphPainter1.getBoundedPosition(javax.swing.text.GlyphView,int,float,float).<P>len",
+    "source_api_id": 367491,
+    "text": "specifies the distance into the view where a potential break is desired >= 0",
+    "labels": [
+      10,
+      36,
+      "GE-1"
+    ],
+    "linked_entity_name": "javax.swing.text.GlyphPainter1.getBoundedPosition(javax.swing.text.GlyphView,int,float,float).<P>len",
+    "linked_id": 367491
+  },
+  {
+    "count": 107,
+    "mention": "the days to add",
+    "source_name": "java.time.LocalDateTime.plusDays(long).<P>days",
+    "source_api_id": 329456,
+    "text": "the days to add, may be negative",
+    "labels": [
+      0,
+      15,
+      "Negativeable"
+    ],
+    "linked_entity_name": "java.time.LocalDateTime.plusDays(long).<P>days",
+    "linked_id": 329456
+  },
+  {
+    "count": 108,
+    "mention": "the amount of years",
+    "source_name": "java.time.Period.of(int,int,int).<P>years",
+    "source_api_id": 329764,
+    "text": "the amount of years, may be negative",
+    "labels": [
+      0,
+      19,
+      "Negativeable"
+    ],
+    "linked_entity_name": "java.time.Period.of(int,int,int).<P>years",
+    "linked_id": 329764
+  },
+  {
+    "count": 109,
+    "mention": "p_test",
+    "source_name": "com.sun.org.apache.xerces.internal.util.URI.equals(java.lang.Object).<R>",
+    "source_api_id": 445666,
+    "text": "true if p_test is a URI with all values equal to this URI, false otherwise",
+    "labels": [
+      8,
+      14,
+      "Type-1"
+    ],
+    "linked_entity_name": "com.sun.org.apache.xerces.internal.util.URI.equals(java.lang.Object).<P>p_test",
+    "linked_id": 296290
+  },
+  {
+    "count": 110,
+    "mention": "URI",
+    "source_name": "com.sun.org.apache.xerces.internal.util.URI.equals(java.lang.Object).<R>",
+    "source_api_id": 445666,
+    "text": "true if p_test is a URI with all values equal to this URI, false otherwise",
+    "labels": [
+      20,
+      23,
+      "Type-2"
+    ],
+    "linked_entity_name": "com.sun.org.apache.xerces.internal.util.URI",
+    "linked_id": 7025
+  },
+  {
+    "count": 111,
+    "mention": "the specification version",
+    "source_name": "java.lang.Package.getSpecificationVersion().<R>",
+    "source_api_id": 464972,
+    "text": "the specification version, null is returned if it is not known.",
+    "labels": [
+      0,
+      25,
+      "Returned"
+    ],
+    "linked_entity_name": "java.lang.Package.getSpecificationVersion().<R>",
+    "linked_id": 464972
+  },
+  {
+    "count": 112,
+    "mention": "the bank index",
+    "source_name": "javax.sound.midi.Patch.Patch(int,int).<P>bank",
+    "source_api_id": 347304,
+    "text": "the bank index (in the range from 0 to 16383)",
+    "labels": [
+      0,
+      14,
+      "GE-1"
+    ],
+    "linked_entity_name": "javax.sound.midi.Patch.Patch(int,int).<P>bank",
+    "linked_id": 347304
+  },
+  {
+    "count": 113,
+    "mention": "The offset",
+    "source_name": "java.nio.FloatBuffer.get(float[],int,int).<P>offset",
+    "source_api_id": 323907,
+    "text": "The offset within the array of the first float to be written; must be non-negative and no larger than dst.length",
+    "labels": [
+      0,
+      46,
+      "Nonnegative"
+    ],
+    "linked_entity_name": "java.nio.FloatBuffer.get(float[],int,int).<P>offset",
+    "linked_id": 323907
+  },
+  {
+    "count": 114,
+    "mention": "This value",
+    "source_name": "java.util.concurrent.Semaphore.Semaphore(int).<P>permits",
+    "source_api_id": 334978,
+    "text": "This value may be negative, in which case releases must occur before any acquires will be granted.",
+    "labels": [
+      0,
+      10,
+      "Negativeable"
+    ],
+    "linked_entity_name": "java.util.concurrent.Semaphore.Semaphore(int).<P>permits",
+    "linked_id": 334978
+  },
+  {
+    "count": 115,
+    "mention": "the child index",
+    "source_name": "javax.swing.text.AbstractDocument.LeafElement.getElement(int).<P>index",
+    "source_api_id": 366532,
+    "text": "the child index, >= 0 && < getElementCount()",
+    "labels": [
+      0,
+      15,
+      "GE-1"
+    ],
+    "linked_entity_name": "javax.swing.text.AbstractDocument.LeafElement.getElement(int).<P>index",
+    "linked_id": 366532
+  },
+  {
+    "count": 116,
+    "mention": "getElementCount()",
+    "source_name": "javax.swing.text.AbstractDocument.LeafElement.getElement(int).<P>index",
+    "source_api_id": 366532,
+    "text": "the child index, >= 0 && < getElementCount()",
+    "labels": [
+      27,
+      44,
+      "LT-2"
+    ],
+    "linked_entity_name": "javax.swing.text.AbstractDocument.LeafElement.getElementCount().<R>",
+    "linked_id": 505821
+  },
+  {
+    "count": 117,
+    "mention": "the number of existing views to replace",
+    "source_name": "javax.swing.text.AsyncBoxView.replace(int,int,javax.swing.text.View[]).<P>length",
+    "source_api_id": 366595,
+    "text": "the number of existing views to replace >= 0",
+    "labels": [
+      0,
+      39,
+      "GE-1"
+    ],
+    "linked_entity_name": "javax.swing.text.AsyncBoxView.replace(int,int,javax.swing.text.View[]).<P>length",
+    "linked_id": 366595
+  },
+  {
+    "count": 118,
+    "mention": "chunklen",
+    "source_name": "java.net.HttpURLConnection.setChunkedStreamingMode(int).<P>chunklen",
+    "source_api_id": 320884,
+    "text": "If chunklen is less than or equal to zero, a default value will be used.",
+    "labels": [
+      3,
+      11,
+      "LE-1"
+    ],
+    "linked_entity_name": "java.net.HttpURLConnection.setChunkedStreamingMode(int).<P>chunklen",
+    "linked_id": 320884
+  },
+  {
+    "count": 119,
+    "mention": "gc",
+    "source_name": "javax.swing.JWindow.JWindow(java.awt.Window,java.awt.GraphicsConfiguration).<P>gc",
+    "source_api_id": 352948,
+    "text": "the GraphicsConfiguration that is used to construct the new window with; if gc is null, the system default GraphicsConfiguration is assumed, unless owner is also null, in which case the GraphicsConfiguration from the shared owner frame will be used.",
+    "labels": [
+      76,
+      78,
+      "EQ-1"
+    ],
+    "linked_entity_name": "javax.swing.JWindow.JWindow(java.awt.Window,java.awt.GraphicsConfiguration).<P>gc",
+    "linked_id": 352948
+  },
+  {
+    "count": 120,
+    "mention": "owner",
+    "source_name": "javax.swing.JWindow.JWindow(java.awt.Window,java.awt.GraphicsConfiguration).<P>gc",
+    "source_api_id": 352948,
+    "text": "the GraphicsConfiguration that is used to construct the new window with; if gc is null, the system default GraphicsConfiguration is assumed, unless owner is also null, in which case the GraphicsConfiguration from the shared owner frame will be used.",
+    "labels": [
+      148,
+      153,
+      "EQ-1"
+    ],
+    "linked_entity_name": "javax.swing.JWindow.JWindow(java.awt.Window,java.awt.GraphicsConfiguration).<P>owner",
+    "linked_id": 352947
+  },
+  {
+    "count": 121,
+    "mention": "The width of the backing store",
+    "source_name": "com.sun.prism.impl.packrect.RectanglePacker.RectanglePacker(com.sun.prism.Texture,int,int).<P>width",
+    "source_api_id": 241172,
+    "text": "The width of the backing store, must be > 0 (typically > 512)",
+    "labels": [
+      0,
+      30,
+      "GT-1"
+    ],
+    "linked_entity_name": "com.sun.prism.impl.packrect.RectanglePacker.RectanglePacker(com.sun.prism.Texture,int,int).<P>width",
+    "linked_id": 241172
+  },
+  {
+    "count": 122,
+    "mention": "number of columns",
+    "source_name": "javax.swing.JTextArea.getColumns().<R>",
+    "source_api_id": 496675,
+    "text": "number of columns >= 0",
+    "labels": [
+      0,
+      17,
+      "GE-1"
+    ],
+    "linked_entity_name": "javax.swing.JTextArea.getColumns().<R>",
+    "linked_id": 496675
+  },
+  {
+    "count": 123,
+    "mention": "The maximum number of shorts",
+    "source_name": "java.nio.ShortBuffer.get(short[],int,int).<P>length",
+    "source_api_id": 324373,
+    "text": "The maximum number of shorts to be written to the given array; must be non-negative and no larger than dst.length - offset",
+    "labels": [
+      0,
+      42,
+      "Nonnegative"
+    ],
+    "linked_entity_name": "java.nio.ShortBuffer.get(short[],int,int).<P>length",
+    "linked_id": 324373
+  },
+  {
+    "count": 124,
+    "mention": "the return value",
+    "source_name": "java.util.Arrays.binarySearch(int[],int).<R>",
+    "source_api_id": 476106,
+    "text": "Note that this guarantees that the return value will be >= 0 if and only if the key is found.",
+    "labels": [
+      31,
+      47,
+      "GE-1"
+    ],
+    "linked_entity_name": "java.util.Arrays.binarySearch(int[],int).<R>",
+    "linked_id": 476106
+  },
+  {
+    "count": 125,
+    "mention": "the value for length",
+    "source_name": "java.sql.Blob.getBytes(long,int).<P>length",
+    "source_api_id": 326037,
+    "text": "the number of consecutive bytes to be copied; the value for length must be 0 or greater",
+    "labels": [
+      46,
+      66,
+      "GE-1"
+    ],
+    "linked_entity_name": "java.sql.Blob.getBytes(long,int).<P>length",
+    "linked_id": 326037
+  },
+  {
+    "count": 126,
+    "mention": "the end temporal",
+    "source_name": "java.time.temporal.Temporal.until(java.time.temporal.Temporal,java.time.temporal.TemporalUnit).<P>endExclusive",
+    "source_api_id": 329867,
+    "text": "the end temporal, exclusive, converted to be of the same type as this object, not null",
+    "labels": [
+      0,
+      16,
+      "NEQ-1"
+    ],
+    "linked_entity_name": "java.time.temporal.Temporal.until(java.time.temporal.Temporal,java.time.temporal.TemporalUnit).<P>endExclusive",
+    "linked_id": 329867
+  },
+  {
+    "count": 127,
+    "mention": "the editor kit",
+    "source_name": "javax.swing.JEditorPane.createEditorKitForContentType(java.lang.String).<R>",
+    "source_api_id": 494605,
+    "text": "the editor kit, or null if there is nothing registered for the given type",
+    "labels": [
+      0,
+      14,
+      "Returned"
+    ],
+    "linked_entity_name": "javax.swing.JEditorPane.createEditorKitForContentType(java.lang.String).<R>",
+    "linked_id": 494605
+  },
+  {
+    "count": 128,
+    "mention": "the event type of the element read",
+    "source_name": "javax.xml.stream.XMLStreamReader.nextTag().<R>",
+    "source_api_id": 511803,
+    "text": "the event type of the element read (START_ELEMENT or END_ELEMENT)",
+    "labels": [
+      0,
+      34,
+      "EQ-1"
+    ],
+    "linked_entity_name": "javax.xml.stream.XMLStreamReader.nextTag().<R>",
+    "linked_id": 511803
+  },
+  {
+    "count": 129,
+    "mention": "START_ELEMENT",
+    "source_name": "javax.xml.stream.XMLStreamReader.nextTag().<R>",
+    "source_api_id": 511803,
+    "text": "the event type of the element read (START_ELEMENT or END_ELEMENT)",
+    "labels": [
+      36,
+      49,
+      "EQ-2"
+    ],
+    "linked_entity_name": "javax.xml.stream.XMLStreamConstants.START_ELEMENT",
+    "linked_id": 215869
+  },
+  {
+    "count": 130,
+    "mention": "END_ELEMENT",
+    "source_name": "javax.xml.stream.XMLStreamReader.nextTag().<R>",
+    "source_api_id": 511803,
+    "text": "the event type of the element read (START_ELEMENT or END_ELEMENT)",
+    "labels": [
+      53,
+      64,
+      "EQ-2"
+    ],
+    "linked_entity_name": "javax.xml.stream.XMLStreamConstants.END_ELEMENT",
+    "linked_id": 215870
+  },
+  {
+    "count": 131,
+    "mention": "s1",
+    "source_name": "com.sun.org.apache.xpath.internal.objects.EqualComparator.compareStrings(com.sun.org.apache.xml.internal.utils.XMLString,com.sun.org.apache.xml.internal.utils.XMLString).<R>",
+    "source_api_id": 452872,
+    "text": "true if s1 is equal to s2",
+    "labels": [
+      8,
+      10,
+      "EQ-1"
+    ],
+    "linked_entity_name": "com.sun.org.apache.xpath.internal.objects.EqualComparator.compareStrings(com.sun.org.apache.xml.internal.utils.XMLString,com.sun.org.apache.xml.internal.utils.XMLString).<P>s1",
+    "linked_id": 304191
+  },
+  {
+    "count": 132,
+    "mention": "s2",
+    "source_name": "com.sun.org.apache.xpath.internal.objects.EqualComparator.compareStrings(com.sun.org.apache.xml.internal.utils.XMLString,com.sun.org.apache.xml.internal.utils.XMLString).<R>",
+    "source_api_id": 452872,
+    "text": "true if s1 is equal to s2",
+    "labels": [
+      23,
+      25,
+      "EQ-2"
+    ],
+    "linked_entity_name": "com.sun.org.apache.xpath.internal.objects.EqualComparator.compareStrings(com.sun.org.apache.xml.internal.utils.XMLString,com.sun.org.apache.xml.internal.utils.XMLString).<P>s2",
+    "linked_id": 304192
+  },
+  {
+    "count": 133,
+    "mention": "rhs",
+    "source_name": "java.awt.font.ShapeGraphicAttribute.equals(java.awt.font.ShapeGraphicAttribute).<R>",
+    "source_api_id": 456411,
+    "text": "true if this ShapeGraphicAttribute equals rhs; false otherwise.",
+    "labels": [
+      42,
+      45,
+      "EQ-2"
+    ],
+    "linked_entity_name": "java.awt.font.ShapeGraphicAttribute.equals(java.awt.font.ShapeGraphicAttribute).<P>rhs",
+    "linked_id": 307747
+  },
+  {
+    "count": 134,
+    "mention": "the location in the model",
+    "source_name": "javax.swing.text.GlyphView.GlyphPainter.getBoundedPosition(javax.swing.text.GlyphView,int,float,float).<P>p0",
+    "source_api_id": 367615,
+    "text": "the location in the model where the fragment should start it's representation >= 0.",
+    "labels": [
+      0,
+      25,
+      "GE-1"
+    ],
+    "linked_entity_name": "javax.swing.text.GlyphView.GlyphPainter.getBoundedPosition(javax.swing.text.GlyphView,int,float,float).<P>p0",
+    "linked_id": 367615
+  },
+  {
+    "count": 135,
+    "mention": "length of second run to be merged",
+    "source_name": "java.util.ComparableTimSort.mergeHi(int,int,int,int).<P>len2",
+    "source_api_id": 332143,
+    "text": "length of second run to be merged (must be > 0)",
+    "labels": [
+      0,
+      33,
+      "GT-1"
+    ],
+    "linked_entity_name": "java.util.ComparableTimSort.mergeHi(int,int,int,int).<P>len2",
+    "linked_id": 332143
+  },
+  {
+    "count": 136,
+    "mention": "This",
+    "source_name": "javax.swing.table.TableStringConverter.toString(javax.swing.table.TableModel,int,int).<R>",
+    "source_api_id": 505686,
+    "text": "This should never return null.",
+    "labels": [
+      0,
+      4,
+      "NotReturns-1"
+    ],
+    "linked_entity_name": "javax.swing.table.TableStringConverter.toString(javax.swing.table.TableModel,int,int)",
+    "linked_id": 142790
+  },
+  {
+    "count": 137,
+    "mention": "the given object",
+    "source_name": "java.text.SimpleDateFormat.equals(java.lang.Object).<R>",
+    "source_api_id": 473642,
+    "text": "true if the given object is equal to this SimpleDateFormat",
+    "labels": [
+      8,
+      24,
+      "EQ-1"
+    ],
+    "linked_entity_name": "java.text.SimpleDateFormat.equals(java.lang.Object).<P>obj",
+    "linked_id": 328023
+  },
+  {
+    "count": 138,
+    "mention": "additional time",
+    "source_name": "java.lang.Object.wait(long,int).<P>nanos",
+    "source_api_id": 318555,
+    "text": "additional time, in nanoseconds range 0-999999.",
+    "labels": [
+      0,
+      15,
+      "GE-1"
+    ],
+    "linked_entity_name": "java.lang.Object.wait(long,int).<P>nanos",
+    "linked_id": 318555
+  },
+  {
+    "count": 139,
+    "mention": "columns",
+    "source_name": "java.awt.TextArea.TextArea(java.lang.String,int,int,int).<P>columns",
+    "source_api_id": 312764,
+    "text": "the number of columns; if columns is less than 0, columns is set to 0",
+    "labels": [
+      26,
+      33,
+      "LT-1"
+    ],
+    "linked_entity_name": "java.awt.TextArea.TextArea(java.lang.String,int,int,int).<P>columns",
+    "linked_id": 312764
+  },
+  {
+    "count": 140,
+    "mention": "the value of this parameter",
+    "source_name": "java.security.MessageDigestSpi.engineDigest(byte[],int,int).<P>len",
+    "source_api_id": 325487,
+    "text": "If the value of this parameter is less than the actual digest length, the method will throw a DigestException.",
+    "labels": [
+      3,
+      30,
+      "LT-1"
+    ],
+    "linked_entity_name": "java.security.MessageDigestSpi.engineDigest(byte[],int,int).<P>len",
+    "linked_id": 325487
+  },
+  {
+    "count": 141,
+    "mention": "the method",
+    "source_name": "java.security.MessageDigestSpi.engineDigest(byte[],int,int).<P>len",
+    "source_api_id": 325487,
+    "text": "If the value of this parameter is less than the actual digest length, the method will throw a DigestException.",
+    "labels": [
+      70,
+      80,
+      "Throws-1"
+    ],
+    "linked_entity_name": "java.security.MessageDigestSpi.engineDigest(byte[],int,int)",
+    "linked_id": 108524
+  },
+  {
+    "count": 142,
+    "mention": "the offset into the document",
+    "source_name": "javax.swing.text.DocumentFilter.insertString(javax.swing.text.DocumentFilter.FilterBypass,int,java.lang.String,javax.swing.text.AttributeSet).<P>offset",
+    "source_api_id": 367270,
+    "text": "the offset into the document to insert the content >= 0.",
+    "labels": [
+      0,
+      28,
+      "GE-1"
+    ],
+    "linked_entity_name": "javax.swing.text.DocumentFilter.insertString(javax.swing.text.DocumentFilter.FilterBypass,int,java.lang.String,javax.swing.text.AttributeSet).<P>offset",
+    "linked_id": 367270
+  },
+  {
+    "count": 143,
+    "mention": "the beginning position in the model",
+    "source_name": "javax.swing.text.WrappedPlainView.drawUnselectedText(java.awt.Graphics,int,int,int,int).<P>p0",
+    "source_api_id": 370854,
+    "text": "the beginning position in the model >= 0",
+    "labels": [
+      0,
+      35,
+      "GE-1"
+    ],
+    "linked_entity_name": "javax.swing.text.WrappedPlainView.drawUnselectedText(java.awt.Graphics,int,int,int,int).<P>p0",
+    "linked_id": 370854
+  },
+  {
+    "count": 144,
+    "mention": "The height of the backing store",
+    "source_name": "com.sun.prism.impl.packrect.RectanglePacker.RectanglePacker(com.sun.prism.Texture,int,int).<P>height",
+    "source_api_id": 241173,
+    "text": "The height of the backing store, must be > 0 (typically > 512)",
+    "labels": [
+      0,
+      31,
+      "GT-1"
+    ],
+    "linked_entity_name": "com.sun.prism.impl.packrect.RectanglePacker.RectanglePacker(com.sun.prism.Texture,int,int).<P>height",
+    "linked_id": 241173
+  },
+  {
+    "count": 145,
+    "mention": "the Y coordinate",
+    "source_name": "javax.swing.text.ComponentView.viewToModel(float,float,java.awt.Shape,javax.swing.text.Position.Bias[]).<P>y",
+    "source_api_id": 366765,
+    "text": "the Y coordinate >=0",
+    "labels": [
+      0,
+      16,
+      "GE-1"
+    ],
+    "linked_entity_name": "javax.swing.text.ComponentView.viewToModel(float,float,java.awt.Shape,javax.swing.text.Position.Bias[]).<P>y",
+    "linked_id": 366765
+  },
+  {
+    "count": 146,
+    "mention": "A value",
+    "source_name": "com.sun.media.jfxmedia.MediaPlayer.setBalance(float).<P>balance",
+    "source_api_id": 236566,
+    "text": "A value in the range [-1.0, 1.0].",
+    "labels": [
+      0,
+      7,
+      "GE-1"
+    ],
+    "linked_entity_name": "com.sun.media.jfxmedia.MediaPlayer.setBalance(float).<P>balance",
+    "linked_id": 236566
+  },
+  {
+    "count": 147,
+    "mention": "A double value representation of the string",
+    "source_name": "com.sun.org.apache.xpath.internal.objects.XString.toDouble().<R>",
+    "source_api_id": 452983,
+    "text": "A double value representation of the string, or return Double.NaN if the string can not be converted.",
+    "labels": [
+      0,
+      43,
+      "Returned"
+    ],
+    "linked_entity_name": "com.sun.org.apache.xpath.internal.objects.XString.toDouble().<R>",
+    "linked_id": 452983
+  },
+  {
+    "count": 148,
+    "mention": "Double.NaN",
+    "source_name": "com.sun.org.apache.xpath.internal.objects.XString.toDouble().<R>",
+    "source_api_id": 452983,
+    "text": "A double value representation of the string, or return Double.NaN if the string can not be converted.",
+    "labels": [
+      55,
+      65,
+      "Returned"
+    ],
+    "linked_entity_name": "java.lang.Double.NaN",
+    "linked_id": 198052
+  },
+  {
+    "count": 149,
+    "mention": "an integer",
+    "source_name": "java.awt.PageAttributes.setPrinterResolution(int).<P>printerResolution",
+    "source_api_id": 312181,
+    "text": "an integer greater than 0.",
+    "labels": [
+      0,
+      10,
+      "GT-1"
+    ],
+    "linked_entity_name": "java.awt.PageAttributes.setPrinterResolution(int).<P>printerResolution",
+    "linked_id": 312181
+  },
+  {
+    "count": 150,
+    "mention": "currentClassLoader",
+    "source_name": "java.lang.SecurityManager.inClassLoader().<R>",
+    "source_api_id": 465574,
+    "text": "true if a call to currentClassLoader has a non-null return value.",
+    "labels": [
+      18,
+      36,
+      "Returns-1"
+    ],
+    "linked_entity_name": "java.lang.SecurityManager.currentClassLoader()",
+    "linked_id": 102671
+  },
+  {
+    "count": 151,
+    "mention": "this construct's annotations for the specified annotation type",
+    "source_name": "javax.lang.model.AnnotatedConstruct.getAnnotationsByType(java.lang.Class<A>).<R>",
+    "source_api_id": 486556,
+    "text": "this construct's annotations for the specified annotation type if present on this construct, else an empty array",
+    "labels": [
+      0,
+      62,
+      "Returned"
+    ],
+    "linked_entity_name": "javax.lang.model.AnnotatedConstruct.getAnnotationsByType(java.lang.Class<A>).<R>",
+    "linked_id": 486556
+  },
+  {
+    "count": 152,
+    "mention": "posn",
+    "source_name": "javax.naming.Name.getSuffix(int).<R>",
+    "source_api_id": 489585,
+    "text": "If posn is equal to size(), an empty name is returned.",
+    "labels": [
+      3,
+      7,
+      "EQ-1"
+    ],
+    "linked_entity_name": "javax.naming.Name.getSuffix(int).<P>posn",
+    "linked_id": 345826
+  },
+  {
+    "count": 153,
+    "mention": "size()",
+    "source_name": "javax.naming.Name.getSuffix(int).<R>",
+    "source_api_id": 489585,
+    "text": "If posn is equal to size(), an empty name is returned.",
+    "labels": [
+      20,
+      26,
+      "EQ-2"
+    ],
+    "linked_entity_name": "javax.naming.Name.size().<R>",
+    "linked_id": 489580
+  },
+  {
+    "count": 154,
+    "mention": "the length",
+    "source_name": "org.w3c.dom.CharacterData.substringData(int,int).<R>",
+    "source_api_id": 515380,
+    "text": "If the sum of offset and count exceeds the length, then all 16-bit units to the end of the data are returned.",
+    "labels": [
+      39,
+      49,
+      "GT-2"
+    ],
+    "linked_entity_name": "org.w3c.dom.CharacterData.getLength().<R>",
+    "linked_id": 515379
+  },
+  {
+    "count": 155,
+    "mention": "all 16-bit units to the end of the data",
+    "source_name": "org.w3c.dom.CharacterData.substringData(int,int).<R>",
+    "source_api_id": 515380,
+    "text": "If the sum of offset and count exceeds the length, then all 16-bit units to the end of the data are returned.",
+    "labels": [
+      56,
+      95,
+      "Returned"
+    ],
+    "linked_entity_name": "org.w3c.dom.CharacterData.substringData(int,int).<R>",
+    "linked_id": 515380
+  },
+  {
+    "count": 156,
+    "mention": "The object's state for binding",
+    "source_name": "javax.naming.spi.StateFactory.getStateToBind(java.lang.Object,javax.naming.Name,javax.naming.Context,java.util.Hashtable<?,?>).<R>",
+    "source_api_id": 489822,
+    "text": "The object's state for binding; null if the factory is not returning any changes.",
+    "labels": [
+      0,
+      30,
+      "Returned"
+    ],
+    "linked_entity_name": "javax.naming.spi.StateFactory.getStateToBind(java.lang.Object,javax.naming.Name,javax.naming.Context,java.util.Hashtable<?,?>).<R>",
+    "linked_id": 489822
+  },
+  {
+    "count": 157,
+    "mention": "the column value",
+    "source_name": "java.sql.ResultSet.getBoolean(int).<R>",
+    "source_api_id": 472468,
+    "text": "the column value; if the value is SQL NULL, the value returned is false",
+    "labels": [
+      0,
+      16,
+      "Returned"
+    ],
+    "linked_entity_name": "java.sql.ResultSet.getBoolean(int).<R>",
+    "linked_id": 472468
+  },
+  {
+    "count": 158,
+    "mention": "obj",
+    "source_name": "javax.management.openmbean.TabularType.isValue(java.lang.Object).<R>",
+    "source_api_id": 488173,
+    "text": "true if obj is a value for this tabular type, false otherwise.",
+    "labels": [
+      8,
+      11,
+      "Type-1"
+    ],
+    "linked_entity_name": "javax.management.openmbean.TabularType.isValue(java.lang.Object).<P>obj",
+    "linked_id": 344101
+  },
+  {
+    "count": 159,
+    "mention": "this tabular type",
+    "source_name": "javax.management.openmbean.TabularType.isValue(java.lang.Object).<R>",
+    "source_api_id": 488173,
+    "text": "true if obj is a value for this tabular type, false otherwise.",
+    "labels": [
+      27,
+      44,
+      "Type-2"
+    ],
+    "linked_entity_name": "javax.management.openmbean.TabularType",
+    "linked_id": 11347
+  },
+  {
+    "count": 160,
+    "mention": "the conversion state for the text range",
+    "source_name": "java.awt.im.InputMethodHighlight.InputMethodHighlight(boolean,int,int,java.util.Map<java.awt.font.TextAttribute,?>).<P>state",
+    "source_api_id": 309745,
+    "text": "the conversion state for the text range - RAW_TEXT or CONVERTED_TEXT",
+    "labels": [
+      0,
+      39,
+      "EQ-1"
+    ],
+    "linked_entity_name": "java.awt.im.InputMethodHighlight.InputMethodHighlight(boolean,int,int,java.util.Map<java.awt.font.TextAttribute,?>).<P>state",
+    "linked_id": 309745
+  },
+  {
+    "count": 161,
+    "mention": "The returned object",
+    "source_name": "javax.management.Query.in(javax.management.ValueExp,javax.management.ValueExp[]).<R>",
+    "source_api_id": 488207,
+    "text": "The returned object will be serialized as an instance of the non-public class javax.management.InQueryExp.",
+    "labels": [
+      0,
+      19,
+      "Returned"
+    ],
+    "linked_entity_name": "javax.management.Query.in(javax.management.ValueExp,javax.management.ValueExp[]).<R>",
+    "linked_id": 488207
+  },
+  {
+    "count": 162,
+    "mention": "javax.management.InQueryExp",
+    "source_name": "javax.management.Query.in(javax.management.ValueExp,javax.management.ValueExp[]).<R>",
+    "source_api_id": 488207,
+    "text": "The returned object will be serialized as an instance of the non-public class javax.management.InQueryExp.",
+    "labels": [
+      78,
+      105,
+      "Type-2"
+    ],
+    "linked_entity_name": "javax.management.InQueryExp",
+    "linked_id": 11232
+  },
+  {
+    "count": 163,
+    "mention": "Icon",
+    "source_name": "javax.swing.UIDefaults.getIcon(java.lang.Object).<R>",
+    "source_api_id": 509990,
+    "text": "if the value for key is an Icon, return the Icon object; otherwise return null",
+    "labels": [
+      27,
+      31,
+      "Type-2"
+    ],
+    "linked_entity_name": "javax.swing.Icon",
+    "linked_id": 12088
+  },
+  {
+    "count": 164,
+    "mention": "the Icon object",
+    "source_name": "javax.swing.UIDefaults.getIcon(java.lang.Object).<R>",
+    "source_api_id": 509990,
+    "text": "if the value for key is an Icon, return the Icon object; otherwise return null",
+    "labels": [
+      40,
+      55,
+      "Returned"
+    ],
+    "linked_entity_name": "javax.swing.UIDefaults.getIcon(java.lang.Object).<R>",
+    "linked_id": 509990
+  },
+  {
+    "count": 165,
+    "mention": "the position in this SerialBlob object",
+    "source_name": "javax.sql.rowset.serial.SerialBlob.position(java.sql.Blob,long).<R>",
+    "source_api_id": 492001,
+    "text": "the position in this SerialBlob object where the given Blob object begins, starting at the specified position; -1 if the pattern is not found or the given starting position is out of bounds; position numbering for the return value starts at 1",
+    "labels": [
+      0,
+      38,
+      "Returned"
+    ],
+    "linked_entity_name": "javax.sql.rowset.serial.SerialBlob.position(java.sql.Blob,long).<R>",
+    "linked_id": 492001
+  },
+  {
+    "count": 166,
+    "mention": "an array of AccessibleIcon",
+    "source_name": "javax.swing.JComboBox.AccessibleJComboBox.EditorAccessibleContext.getAccessibleIcon().<R>",
+    "source_api_id": 494257,
+    "text": "an array of AccessibleIcon if supported by object; otherwise return null",
+    "labels": [
+      0,
+      26,
+      "Returned"
+    ],
+    "linked_entity_name": "javax.swing.JComboBox.AccessibleJComboBox.EditorAccessibleContext.getAccessibleIcon().<R>",
+    "linked_id": 494257
+  },
+  {
+    "count": 167,
+    "mention": "X coordinate of second control point",
+    "source_name": "com.sun.scenario.animation.SplineInterpolator.SplineInterpolator(double,double,double,double).<P>px2",
+    "source_api_id": 244107,
+    "text": "X coordinate of second control point, in range [0,1]",
+    "labels": [
+      0,
+      36,
+      "GE-1"
+    ],
+    "linked_entity_name": "com.sun.scenario.animation.SplineInterpolator.SplineInterpolator(double,double,double,double).<P>px2",
+    "linked_id": 244107
+  },
+  {
+    "count": 168,
+    "mention": "The contained message payload",
+    "source_name": "javax.xml.ws.LogicalMessage.getPayload().<R>",
+    "source_api_id": 512185,
+    "text": "The contained message payload; returns null if no payload is present in this message.",
+    "labels": [
+      0,
+      29,
+      "Returned"
+    ],
+    "linked_entity_name": "javax.xml.ws.LogicalMessage.getPayload().<R>",
+    "linked_id": 512185
+  },
+  {
+    "count": 169,
+    "mention": "length",
+    "source_name": "java.sql.Clob.getSubString(long,int).<P>length",
+    "source_api_id": 326273,
+    "text": "the number of consecutive characters to be copied; the value for length must be 0 or greater",
+    "labels": [
+      65,
+      71,
+      "GE-1"
+    ],
+    "linked_entity_name": "java.sql.Clob.getSubString(long,int).<P>length",
+    "linked_id": 326273
+  },
+  {
+    "count": 170,
+    "mention": "The width of the area of the first tile",
+    "source_name": "com.sun.javafx.sg.prism.NGRegion.paintTiles(com.sun.prism.Graphics,com.sun.prism.Image,javafx.scene.layout.BackgroundRepeat,javafx.scene.layout.BackgroundRepeat,javafx.geometry.Side,javafx.geometry.Side,float,float,float,float,int,int,int,int,float,float,float,float).<P>tileWidth",
+    "source_api_id": 233451,
+    "text": "The width of the area of the first tile within the destination rectangle, if <= 0, then the use intrinsic value",
+    "labels": [
+      0,
+      39,
+      "LE-1"
+    ],
+    "linked_entity_name": "com.sun.javafx.sg.prism.NGRegion.paintTiles(com.sun.prism.Graphics,com.sun.prism.Image,javafx.scene.layout.BackgroundRepeat,javafx.scene.layout.BackgroundRepeat,javafx.geometry.Side,javafx.geometry.Side,float,float,float,float,int,int,int,int,float,float,float,float).<P>tileWidth",
+    "linked_id": 233451
+  },
+  {
+    "count": 171,
+    "mention": "the value since the epoch",
+    "source_name": "java.nio.file.attribute.FileTime.from(long,java.util.concurrent.TimeUnit).<P>value",
+    "source_api_id": 323471,
+    "text": "the value since the epoch (1970-01-01T00:00:00Z); can be negative",
+    "labels": [
+      0,
+      25,
+      "Negativeable"
+    ],
+    "linked_entity_name": "java.nio.file.attribute.FileTime.from(long,java.util.concurrent.TimeUnit).<P>value",
+    "linked_id": 323471
+  },
+  {
+    "count": 172,
+    "mention": "dst",
+    "source_name": "java.awt.image.ShortLookupTable.lookupPixel(short[],short[]).<P>dst",
+    "source_api_id": 311478,
+    "text": "If dst is null, a new array will be allocated having the same length as src.",
+    "labels": [
+      3,
+      6,
+      "EQ-1"
+    ],
+    "linked_entity_name": "java.awt.image.ShortLookupTable.lookupPixel(short[],short[]).<P>dst",
+    "linked_id": 311478
+  },
+  {
+    "count": 173,
+    "mention": "the content type",
+    "source_name": "javax.swing.JEditorPane.getContentType().<R>",
+    "source_api_id": 494598,
+    "text": "the content type, null if no editor kit set",
+    "labels": [
+      0,
+      16,
+      "Returned"
+    ],
+    "linked_entity_name": "javax.swing.JEditorPane.getContentType().<R>",
+    "linked_id": 494598
+  },
+  {
+    "count": 174,
+    "mention": "the character at the new position",
+    "source_name": "java.text.CharacterIterator.previous().<R>",
+    "source_api_id": 473116,
+    "text": "the character at the new position or DONE if the current position is equal to getBeginIndex().",
+    "labels": [
+      0,
+      33,
+      "Returned"
+    ],
+    "linked_entity_name": "java.text.CharacterIterator.previous().<R>",
+    "linked_id": 473116
+  },
+  {
+    "count": 175,
+    "mention": "DONE",
+    "source_name": "java.text.CharacterIterator.previous().<R>",
+    "source_api_id": 473116,
+    "text": "the character at the new position or DONE if the current position is equal to getBeginIndex().",
+    "labels": [
+      37,
+      41,
+      "Returned"
+    ],
+    "linked_entity_name": "java.text.CharacterIterator.DONE",
+    "linked_id": 200912
+  },
+  {
+    "count": 176,
+    "mention": "the expected value",
+    "source_name": "java.util.concurrent.atomic.AtomicLong.compareAndSet(long,long).<R>",
+    "source_api_id": 477378,
+    "text": "False return indicates that the actual value was not equal to the expected value.",
+    "labels": [
+      62,
+      80,
+      "NEQ-2"
+    ],
+    "linked_entity_name": "java.util.concurrent.atomic.AtomicLong.compareAndSet(long,long).<P>expect",
+    "linked_id": 332374
+  },
+  {
+    "count": 177,
+    "mention": "the actual value",
+    "source_name": "java.util.concurrent.atomic.AtomicLong.compareAndSet(long,long).<R>",
+    "source_api_id": 477378,
+    "text": "False return indicates that the actual value was not equal to the expected value.",
+    "labels": [
+      28,
+      44,
+      "NEQ-1"
+    ],
+    "linked_entity_name": "java.util.concurrent.atomic.AtomicLong.compareAndSet(long,long).<P>update",
+    "linked_id": 332375
+  },
+  {
+    "count": 178,
+    "mention": "Policy.UNSUPPORTED_EMPTY_COLLECTION",
+    "source_name": "java.security.PolicySpi.engineGetPermissions(java.security.CodeSource).<R>",
+    "source_api_id": 471505,
+    "text": "If this operation is not supported, Policy.UNSUPPORTED_EMPTY_COLLECTION is returned.",
+    "labels": [
+      36,
+      71,
+      "Returned"
+    ],
+    "linked_entity_name": "java.security.Policy.UNSUPPORTED_EMPTY_COLLECTION",
+    "linked_id": 200472
+  },
+  {
+    "count": 179,
+    "mention": "getBeginIndex()",
+    "source_name": "java.text.CharacterIterator.setIndex(int).<P>position",
+    "source_api_id": 327414,
+    "text": "Valid values range from getBeginIndex() to getEndIndex().",
+    "labels": [
+      24,
+      39,
+      "GE-2"
+    ],
+    "linked_entity_name": "java.text.CharacterIterator.getBeginIndex().<R>",
+    "linked_id": 473118
+  },
+  {
+    "count": 180,
+    "mention": "getEndIndex()",
+    "source_name": "java.text.CharacterIterator.setIndex(int).<P>position",
+    "source_api_id": 327414,
+    "text": "Valid values range from getBeginIndex() to getEndIndex().",
+    "labels": [
+      43,
+      56,
+      "LE-2"
+    ],
+    "linked_entity_name": "java.text.CharacterIterator.getEndIndex().<R>",
+    "linked_id": 473119
+  },
+  {
+    "count": 181,
+    "mention": "The nonmatching MIME headers",
+    "source_name": "javax.xml.soap.AttachmentPart.getNonMatchingMimeHeaders(java.lang.String[]).<R>",
+    "source_api_id": 511337,
+    "text": "The nonmatching MIME headers are returned as an Iterator object.",
+    "labels": [
+      0,
+      28,
+      "Returned"
+    ],
+    "linked_entity_name": "javax.xml.soap.AttachmentPart.getNonMatchingMimeHeaders(java.lang.String[]).<R>",
+    "linked_id": 511337
+  },
+  {
+    "count": 182,
+    "mention": "the number of digits to the right of the decimal point",
+    "source_name": "javax.sql.rowset.RowSetMetaDataImpl.setScale(int,int).<P>scale",
+    "source_api_id": 347984,
+    "text": "the number of digits to the right of the decimal point; must be zero or greater",
+    "labels": [
+      0,
+      54,
+      "GE-1"
+    ],
+    "linked_entity_name": "javax.sql.rowset.RowSetMetaDataImpl.setScale(int,int).<P>scale",
+    "linked_id": 347984
+  },
+  {
+    "count": 183,
+    "mention": "int length of wrapped lines",
+    "source_name": "com.sun.org.apache.xml.internal.security.utils.Base64.encode(byte[],int).<P>length",
+    "source_api_id": 300580,
+    "text": "int length of wrapped lines; No wrapping if less than 4.",
+    "labels": [
+      0,
+      27,
+      "LT-1"
+    ],
+    "linked_entity_name": "com.sun.org.apache.xml.internal.security.utils.Base64.encode(byte[],int).<P>length",
+    "linked_id": 300580
+  },
+  {
+    "count": 184,
+    "mention": "a map of the attributes",
+    "source_name": "java.nio.file.spi.FileSystemProvider.readAttributes(java.nio.file.Path,java.lang.String,java.nio.file.LinkOption...).<R>",
+    "source_api_id": 469801,
+    "text": "a map of the attributes returned; may be empty.",
+    "labels": [
+      0,
+      23,
+      "Returned"
+    ],
+    "linked_entity_name": "java.nio.file.spi.FileSystemProvider.readAttributes(java.nio.file.Path,java.lang.String,java.nio.file.LinkOption...).<R>",
+    "linked_id": 469801
+  },
+  {
+    "count": 185,
+    "mention": "object",
+    "source_name": "com.sun.jmx.snmp.SnmpOidTableSupport.equals(java.lang.Object).<R>",
+    "source_api_id": 433251,
+    "text": "true if object is an SnmpOidTableSupport instance and equals to this, false otherwise.",
+    "labels": [
+      8,
+      14,
+      "Type-1"
+    ],
+    "linked_entity_name": "com.sun.jmx.snmp.SnmpOidTableSupport.equals(java.lang.Object).<P>object",
+    "linked_id": 282291
+  },
+  {
+    "count": 186,
+    "mention": "SnmpOidTableSupport",
+    "source_name": "com.sun.jmx.snmp.SnmpOidTableSupport.equals(java.lang.Object).<R>",
+    "source_api_id": 433251,
+    "text": "true if object is an SnmpOidTableSupport instance and equals to this, false otherwise.",
+    "labels": [
+      21,
+      40,
+      "Type-2"
+    ],
+    "linked_entity_name": "com.sun.jmx.snmp.SnmpOidTableSupport",
+    "linked_id": 5779
+  },
+  {
+    "count": 187,
+    "mention": "the MIDI note number",
+    "source_name": "javax.sound.midi.MidiChannel.getPolyPressure(int).<P>noteNumber",
+    "source_api_id": 347207,
+    "text": "the MIDI note number, from 0 to 127 (60 = Middle C) If the device does not support setting poly pressure, this method always returns 0.",
+    "labels": [
+      0,
+      20,
+      "GE-1"
+    ],
+    "linked_entity_name": "javax.sound.midi.MidiChannel.getPolyPressure(int).<P>noteNumber",
+    "linked_id": 347207
+  },
+  {
+    "count": 188,
+    "mention": "this method",
+    "source_name": "javax.sound.midi.MidiChannel.getPolyPressure(int).<P>noteNumber",
+    "source_api_id": 347207,
+    "text": "the MIDI note number, from 0 to 127 (60 = Middle C) If the device does not support setting poly pressure, this method always returns 0.",
+    "labels": [
+      106,
+      117,
+      "Returns-1"
+    ],
+    "linked_entity_name": "javax.sound.midi.MidiChannel.getPolyPressure(int)",
+    "linked_id": 128280
+  },
+  {
+    "count": 189,
+    "mention": "obj",
+    "source_name": "javax.naming.directory.BasicAttributes.equals(java.lang.Object).<R>",
+    "source_api_id": 489217,
+    "text": "true If obj is equal to this BasicAttributes.",
+    "labels": [
+      8,
+      11,
+      "EQ-1"
+    ],
+    "linked_entity_name": "javax.naming.directory.BasicAttributes.equals(java.lang.Object).<P>obj",
+    "linked_id": 345430
+  },
+  {
+    "count": 190,
+    "mention": "the given typecode",
+    "source_name": "org.omg.CORBA.TypeCode.equivalent(org.omg.CORBA.TypeCode).<R>",
+    "source_api_id": 513549,
+    "text": "true if the given typecode is equivalent to this typecode; false otherwise",
+    "labels": [
+      8,
+      26,
+      "EQ-1"
+    ],
+    "linked_entity_name": "org.omg.CORBA.TypeCode.equivalent(org.omg.CORBA.TypeCode).<P>tc",
+    "linked_id": 375044
+  },
+  {
+    "count": 191,
+    "mention": "The return value",
+    "source_name": "com.sun.corba.se.spi.legacy.interceptor.RequestInfoExt.connection().<R>",
+    "source_api_id": 426940,
+    "text": "The return value will be null when a local transport is used.",
+    "labels": [
+      0,
+      16,
+      "EQ-1"
+    ],
+    "linked_entity_name": "com.sun.corba.se.spi.legacy.interceptor.RequestInfoExt.connection().<R>",
+    "linked_id": 426940
+  },
+  {
+    "count": 192,
+    "mention": "an array of the selected items on this scrolling list",
+    "source_name": "java.awt.List.getSelectedItems().<R>",
+    "source_api_id": 458980,
+    "text": "an array of the selected items on this scrolling list; if no item is selected, a zero-length array is returned.",
+    "labels": [
+      0,
+      53,
+      "Returned"
+    ],
+    "linked_entity_name": "java.awt.List.getSelectedItems().<R>",
+    "linked_id": 458980
+  },
+  {
+    "count": 193,
+    "mention": "a zero-length array",
+    "source_name": "java.awt.List.getSelectedItems().<R>",
+    "source_api_id": 458980,
+    "text": "an array of the selected items on this scrolling list; if no item is selected, a zero-length array is returned.",
+    "labels": [
+      79,
+      98,
+      "Returned"
+    ],
+    "linked_entity_name": "java.awt.List.getSelectedItems().<R>",
+    "linked_id": 458980
+  },
+  {
+    "count": 194,
+    "mention": "the exception",
+    "source_name": "java.util.concurrent.ForkJoinTask.getThrowableException().<R>",
+    "source_api_id": 478991,
+    "text": "the exception, or null if none",
+    "labels": [
+      0,
+      13,
+      "Returned"
+    ],
+    "linked_entity_name": "java.util.concurrent.ForkJoinTask.getThrowableException().<R>",
+    "linked_id": 478991
+  },
+  {
+    "count": 195,
+    "mention": "columns",
+    "source_name": "java.awt.TextField.TextField(int).<P>columns",
+    "source_api_id": 312822,
+    "text": "If columns is less than 0, columns is set to 0.",
+    "labels": [
+      3,
+      10,
+      "LT-1"
+    ],
+    "linked_entity_name": "java.awt.TextField.TextField(int).<P>columns",
+    "linked_id": 312822
+  },
+  {
+    "count": 196,
+    "mention": "The height of the area of the first tile within the destination rectangle",
+    "source_name": "com.sun.javafx.sg.prism.NGRegion.paintTiles(com.sun.prism.Graphics,com.sun.prism.Image,javafx.scene.layout.BackgroundRepeat,javafx.scene.layout.BackgroundRepeat,javafx.geometry.Side,javafx.geometry.Side,float,float,float,float,int,int,int,int,float,float,float,float).<P>tileHeight",
+    "source_api_id": 233452,
+    "text": "The height of the area of the first tile within the destination rectangle, if <= 0, then the use intrinsic value",
+    "labels": [
+      0,
+      73,
+      "LE-1"
+    ],
+    "linked_entity_name": "com.sun.javafx.sg.prism.NGRegion.paintTiles(com.sun.prism.Graphics,com.sun.prism.Image,javafx.scene.layout.BackgroundRepeat,javafx.scene.layout.BackgroundRepeat,javafx.geometry.Side,javafx.geometry.Side,float,float,float,float,int,int,int,int,float,float,float,float).<P>tileHeight",
+    "linked_id": 233452
+  },
+  {
+    "count": 197,
+    "mention": "the expr object's class",
+    "source_name": "com.sun.org.apache.xpath.internal.Expression.deepEquals(com.sun.org.apache.xpath.internal.Expression).<R>",
+    "source_api_id": 452488,
+    "text": "true if this objects class and the expr object's class are the same, and the data contained within both objects are considered equal.",
+    "labels": [
+      31,
+      54,
+      "EQ-2"
+    ],
+    "linked_entity_name": "com.sun.org.apache.xpath.internal.Expression.deepEquals(com.sun.org.apache.xpath.internal.Expression).<P>expr",
+    "linked_id": 303814
+  },
+  {
+    "count": 198,
+    "mention": "EndpointReference",
+    "source_name": "javax.xml.ws.Endpoint.getEndpointReference(java.lang.Class<T>,org.w3c.dom.Element...).<R>",
+    "source_api_id": 512158,
+    "text": "If the returned EndpointReference is of type W3CEndpointReference then it MUST contain the the specified referenceParameters.",
+    "labels": [
+      16,
+      33,
+      "Returned"
+    ],
+    "linked_entity_name": "javax.xml.ws.Endpoint.getEndpointReference(java.lang.Class<T>,org.w3c.dom.Element...).<R>",
+    "linked_id": 512158
+  },
+  {
+    "count": 199,
+    "mention": "W3CEndpointReference",
+    "source_name": "javax.xml.ws.Endpoint.getEndpointReference(java.lang.Class<T>,org.w3c.dom.Element...).<R>",
+    "source_api_id": 512158,
+    "text": "If the returned EndpointReference is of type W3CEndpointReference then it MUST contain the the specified referenceParameters.",
+    "labels": [
+      45,
+      65,
+      "Type-2"
+    ],
+    "linked_entity_name": "javax.xml.ws.wsaddressing.W3CEndpointReference",
+    "linked_id": 13917
+  },
+  {
+    "count": 200,
+    "mention": "this value",
+    "source_name": "com.sun.org.apache.xerces.internal.dom.RangeImpl.traverseTextNode(org.w3c.dom.Node,boolean,int).<P>isLeft",
+    "source_api_id": 289751,
+    "text": "If this value is false, it implies we are navigating the \"right boundary\" of the range.",
+    "labels": [
+      3,
+      13,
+      "EQ-1"
+    ],
+    "linked_entity_name": "com.sun.org.apache.xerces.internal.dom.RangeImpl.traverseTextNode(org.w3c.dom.Node,boolean,int).<P>isLeft",
+    "linked_id": 289751
+  },
+  {
+    "count": 201,
+    "mention": "port",
+    "source_name": "java.rmi.activation.Activatable.Activatable(java.lang.String,java.rmi.MarshalledObject<?>,boolean,int).<P>port",
+    "source_api_id": 324409,
+    "text": "the port on which the object is exported (an anonymous port is used if port=0)",
+    "labels": [
+      71,
+      75,
+      "EQ-1"
+    ],
+    "linked_entity_name": "java.rmi.activation.Activatable.Activatable(java.lang.String,java.rmi.MarshalledObject<?>,boolean,int).<P>port",
+    "linked_id": 324409
+  },
+  {
+    "count": 202,
+    "mention": "the remainder of the division",
+    "source_name": "java.math.MutableBigInteger.divide(long,java.math.MutableBigInteger).<R>",
+    "source_api_id": 466577,
+    "text": "the remainder of the division will be returned.",
+    "labels": [
+      0,
+      29,
+      "Returned"
+    ],
+    "linked_entity_name": "java.math.MutableBigInteger.divide(long,java.math.MutableBigInteger).<R>",
+    "linked_id": 466577
+  },
+  {
+    "count": 203,
+    "mention": "A Node (of any type) with the specified local name and namespace URI",
+    "source_name": "com.sun.org.apache.xml.internal.dtm.ref.DTMNamedNodeMap.getNamedItemNS(java.lang.String,java.lang.String).<R>",
+    "source_api_id": 447455,
+    "text": "A Node (of any type) with the specified local name and namespace URI, or null if they do not identify any node in this map.",
+    "labels": [
+      0,
+      68,
+      "Returned"
+    ],
+    "linked_entity_name": "com.sun.org.apache.xml.internal.dtm.ref.DTMNamedNodeMap.getNamedItemNS(java.lang.String,java.lang.String).<R>",
+    "linked_id": 447455
+  },
+  {
+    "count": 204,
+    "mention": "rows",
+    "source_name": "java.awt.TextArea.TextArea(java.lang.String,int,int,int).<P>rows",
+    "source_api_id": 312763,
+    "text": "the number of rows; if rows is less than 0, rows is set to 0",
+    "labels": [
+      23,
+      27,
+      "LT-1"
+    ],
+    "linked_entity_name": "java.awt.TextArea.TextArea(java.lang.String,int,int,int).<P>rows",
+    "linked_id": 312763
+  },
+  {
+    "count": 205,
+    "mention": "the MIDI note number",
+    "source_name": "javax.sound.midi.MidiChannel.noteOff(int).<P>noteNumber",
+    "source_api_id": 347204,
+    "text": "the MIDI note number, from 0 to 127 (60 = Middle C)",
+    "labels": [
+      0,
+      20,
+      "GE-1"
+    ],
+    "linked_entity_name": "javax.sound.midi.MidiChannel.noteOff(int).<P>noteNumber",
+    "linked_id": 347204
+  },
+  {
+    "count": 206,
+    "mention": "ObjectName",
+    "source_name": "javax.management.ObjectName.equals(java.lang.Object).<R>",
+    "source_api_id": 487885,
+    "text": "True if object is an ObjectName whose canonical form is equal to that of this ObjectName.",
+    "labels": [
+      21,
+      31,
+      "Type-2"
+    ],
+    "linked_entity_name": "javax.management.ObjectName",
+    "linked_id": 11320
+  },
+  {
+    "count": 207,
+    "mention": "this function",
+    "source_name": "com.sun.org.apache.xpath.internal.patterns.NodeTest.getNodeTypeTest(int).<R>",
+    "source_api_id": 453164,
+    "text": "If none of the known bits are set, this function will return zero.",
+    "labels": [
+      35,
+      48,
+      "Returns-1"
+    ],
+    "linked_entity_name": "com.sun.org.apache.xpath.internal.patterns.NodeTest.getNodeTypeTest(int)",
+    "linked_id": 90268
+  },
+  {
+    "count": 208,
+    "mention": "the index of the child",
+    "source_name": "javax.swing.text.FlowView.LogicalView.childAllocation(int,java.awt.Rectangle).<P>index",
+    "source_api_id": 367399,
+    "text": "the index of the child, >= 0 && < getViewCount()",
+    "labels": [
+      0,
+      22,
+      "GE-1"
+    ],
+    "linked_entity_name": "javax.swing.text.FlowView.LogicalView.childAllocation(int,java.awt.Rectangle).<P>index",
+    "linked_id": 367399
+  },
+  {
+    "count": 209,
+    "mention": "a cloned node",
+    "source_name": "com.sun.org.apache.xerces.internal.dom.RangeImpl.traversePartiallySelected(org.w3c.dom.Node,int).<P>how",
+    "source_api_id": 289749,
+    "text": "CLONE_CONTENTS - will leave the context tree of the range undisturbed, but will return a cloned node.",
+    "labels": [
+      87,
+      100,
+      "Returned"
+    ],
+    "linked_entity_name": "com.sun.org.apache.xerces.internal.dom.RangeImpl.traversePartiallySelected(org.w3c.dom.Node,int).<R>",
+    "linked_id": 440395
+  },
+  {
+    "count": 210,
+    "mention": "the index of the column",
+    "source_name": "javax.swing.JTable.getEditingColumn().<R>",
+    "source_api_id": 496378,
+    "text": "the index of the column that contains the cell currently being edited; returns -1 if nothing being edited",
+    "labels": [
+      0,
+      23,
+      "Returned"
+    ],
+    "linked_entity_name": "javax.swing.JTable.getEditingColumn().<R>",
+    "linked_id": 496378
+  },
+  {
+    "count": 211,
+    "mention": "Dimension",
+    "source_name": "javax.swing.UIDefaults.getDimension(java.lang.Object).<R>",
+    "source_api_id": 510002,
+    "text": "if the value for key is a Dimension, return the Dimension object; otherwise return null",
+    "labels": [
+      26,
+      35,
+      "Type-2"
+    ],
+    "linked_entity_name": "java.awt.Dimension",
+    "linked_id": 8143
+  },
+  {
+    "count": 212,
+    "mention": "the Dimension object",
+    "source_name": "javax.swing.UIDefaults.getDimension(java.lang.Object).<R>",
+    "source_api_id": 510002,
+    "text": "if the value for key is a Dimension, return the Dimension object; otherwise return null",
+    "labels": [
+      44,
+      64,
+      "Returned"
+    ],
+    "linked_entity_name": "javax.swing.UIDefaults.getDimension(java.lang.Object).<R>",
+    "linked_id": 510002
+  },
+  {
+    "count": 213,
+    "mention": "the resulting relative path",
+    "source_name": "java.nio.file.Path.relativize(java.nio.file.Path).<R>",
+    "source_api_id": 469738,
+    "text": "the resulting relative path, or an empty path if both paths are equal",
+    "labels": [
+      0,
+      27,
+      "Returned"
+    ],
+    "linked_entity_name": "java.nio.file.Path.relativize(java.nio.file.Path).<R>",
+    "linked_id": 469738
+  },
+  {
+    "count": 214,
+    "mention": "an empty path",
+    "source_name": "java.nio.file.Path.relativize(java.nio.file.Path).<R>",
+    "source_api_id": 469738,
+    "text": "the resulting relative path, or an empty path if both paths are equal",
+    "labels": [
+      32,
+      45,
+      "Returned"
+    ],
+    "linked_entity_name": "java.nio.file.Path.relativize(java.nio.file.Path).<R>",
+    "linked_id": 469738
+  },
+  {
+    "count": 215,
+    "mention": "Valid types",
+    "source_name": "com.sun.java.swing.plaf.gtk.GTKStyle.GTKStockIconInfo.getIconType(java.lang.String).<R>",
+    "source_api_id": 429217,
+    "text": "Valid types are 1 to 6",
+    "labels": [
+      0,
+      11,
+      "GE-1"
+    ],
+    "linked_entity_name": "com.sun.java.swing.plaf.gtk.GTKStyle.GTKStockIconInfo.getIconType(java.lang.String).<R>",
+    "linked_id": 429217
+  },
+  {
+    "count": 216,
+    "mention": "value",
+    "source_name": "javafx.scene.canvas.GraphicsContext.setLineWidth(double).<P>lw",
+    "source_api_id": 255837,
+    "text": "value in the range {0-positive infinity}, with any other value being ignored and leaving the value unchanged.",
+    "labels": [
+      0,
+      5,
+      "GT-1"
+    ],
+    "linked_entity_name": "javafx.scene.canvas.GraphicsContext.setLineWidth(double).<P>lw",
+    "linked_id": 255837
+  },
+  {
+    "count": 217,
+    "mention": "positive infinity",
+    "source_name": "javafx.scene.canvas.GraphicsContext.setLineWidth(double).<P>lw",
+    "source_api_id": 255837,
+    "text": "value in the range {0-positive infinity}, with any other value being ignored and leaving the value unchanged.",
+    "labels": [
+      22,
+      39,
+      "LT-2"
+    ],
+    "linked_entity_name": "java.lang.Double.POSITIVE_INFINITY",
+    "linked_id": 198050
+  },
+  {
+    "count": 218,
+    "mention": "AccessibleValue",
+    "source_name": "javax.accessibility.AccessibleContext.getAccessibleValue().<R>",
+    "source_api_id": 485447,
+    "text": "AccessibleValue if supported by object; else return null",
+    "labels": [
+      0,
+      15,
+      "Returned"
+    ],
+    "linked_entity_name": "javax.accessibility.AccessibleContext.getAccessibleValue().<R>",
+    "linked_id": 485447
+  },
+  {
+    "count": 219,
+    "mention": "2nd control point coordinate",
+    "source_name": "com.sun.scenario.animation.SplineInterpolator.evalDerivative(double,double,double).<P>p2",
+    "source_api_id": 244116,
+    "text": "is 2nd control point coordinate in range [0,1]",
+    "labels": [
+      3,
+      31,
+      "GE-1"
+    ],
+    "linked_entity_name": "com.sun.scenario.animation.SplineInterpolator.evalDerivative(double,double,double).<P>p2",
+    "linked_id": 244116
+  },
+  {
+    "count": 220,
+    "mention": "String",
+    "source_name": "javax.swing.UIDefaults.getString(java.lang.Object,java.util.Locale).<R>",
+    "source_api_id": 509995,
+    "text": "if the value for key for the given Locale is a String, return the String object; otherwise return null",
+    "labels": [
+      47,
+      53,
+      "Type-2"
+    ],
+    "linked_entity_name": "java.lang.String",
+    "linked_id": 9086
+  },
+  {
+    "count": 221,
+    "mention": "the String object",
+    "source_name": "javax.swing.UIDefaults.getString(java.lang.Object,java.util.Locale).<R>",
+    "source_api_id": 509995,
+    "text": "if the value for key for the given Locale is a String, return the String object; otherwise return null",
+    "labels": [
+      62,
+      79,
+      "Returned"
+    ],
+    "linked_entity_name": "javax.swing.UIDefaults.getString(java.lang.Object,java.util.Locale).<R>",
+    "linked_id": 509995
+  },
+  {
+    "count": 222,
+    "mention": "the same object as location",
+    "source_name": "java.awt.font.LayoutPath.pointToPath(java.awt.geom.Point2D,java.awt.geom.Point2D).<P>point",
+    "source_api_id": 307644,
+    "text": "If it is not the same object as location, point will remain unmodified by this call.",
+    "labels": [
+      13,
+      40,
+      "NEQ-2"
+    ],
+    "linked_entity_name": "java.awt.font.LayoutPath.pointToPath(java.awt.geom.Point2D,java.awt.geom.Point2D).<P>location",
+    "linked_id": 307645
+  },
+  {
+    "count": 223,
+    "mention": "the linked Exception",
+    "source_name": "javax.xml.bind.TypeConstraintException.getLinkedException().<R>",
+    "source_api_id": 510743,
+    "text": "the linked Exception, null if none exists",
+    "labels": [
+      0,
+      20,
+      "Returned"
+    ],
+    "linked_entity_name": "javax.xml.bind.TypeConstraintException.getLinkedException().<R>",
+    "linked_id": 510743
+  },
+  {
+    "count": 224,
+    "mention": "the cached Image",
+    "source_name": "javax.swing.plaf.nimbus.ImageCache.getImage(java.awt.GraphicsConfiguration,int,int,java.lang.Object...).<R>",
+    "source_api_id": 501904,
+    "text": "Returns the cached Image, or null there is no cached image for key",
+    "labels": [
+      8,
+      24,
+      "Returned"
+    ],
+    "linked_entity_name": "javax.swing.plaf.nimbus.ImageCache.getImage(java.awt.GraphicsConfiguration,int,int,java.lang.Object...).<R>",
+    "linked_id": 501904
+  },
+  {
+    "count": 225,
+    "mention": "javax.management.AndQueryExp",
+    "source_name": "javax.management.Query.and(javax.management.QueryExp,javax.management.QueryExp).<R>",
+    "source_api_id": 488194,
+    "text": "The returned object will be serialized as an instance of the non-public class javax.management.AndQueryExp.",
+    "labels": [
+      78,
+      106,
+      "Type-2"
+    ],
+    "linked_entity_name": "javax.management.AndQueryExp",
+    "linked_id": 11211
+  },
+  {
+    "count": 226,
+    "mention": "The returned object",
+    "source_name": "javax.management.Query.and(javax.management.QueryExp,javax.management.QueryExp).<R>",
+    "source_api_id": 488194,
+    "text": "The returned object will be serialized as an instance of the non-public class javax.management.AndQueryExp.",
+    "labels": [
+      0,
+      19,
+      "Returned"
+    ],
+    "linked_entity_name": "javax.management.Query.and(javax.management.QueryExp,javax.management.QueryExp).<R>",
+    "linked_id": 488194
+  },
+  {
+    "count": 227,
+    "mention": "the actual QName object",
+    "source_name": "com.sun.org.apache.xerces.internal.impl.XMLDocumentFragmentScannerImpl.ElementStack.nextElement().<R>",
+    "source_api_id": 441538,
+    "text": "Returns the actual QName object.",
+    "labels": [
+      8,
+      31,
+      "Returned"
+    ],
+    "linked_entity_name": "com.sun.org.apache.xerces.internal.impl.XMLDocumentFragmentScannerImpl.ElementStack.nextElement().<R>",
+    "linked_id": 441538
+  },
+  {
+    "count": 228,
+    "mention": "an ImageTypeSpecifier describing the destination type",
+    "source_name": "javax.imageio.IIOParam.getDestinationType().<R>",
+    "source_api_id": 485666,
+    "text": "an ImageTypeSpecifier describing the destination type, or null.",
+    "labels": [
+      0,
+      53,
+      "Returned"
+    ],
+    "linked_entity_name": "javax.imageio.IIOParam.getDestinationType().<R>",
+    "linked_id": 485666
+  },
+  {
+    "count": 229,
+    "mention": "SQL NULL",
+    "source_name": "javax.sql.rowset.serial.SQLInputImpl.readBlob().<R>",
+    "source_api_id": 492093,
+    "text": "a Blob object representing the SQL BLOB value at the head of this stream; if the value is SQL NULL, return null",
+    "labels": [
+      90,
+      98,
+      "EQ-2"
+    ],
+    "linked_entity_name": "java.sql.Types.NULL",
+    "linked_id": 200844
+  },
+  {
+    "count": 230,
+    "mention": "the specified Object",
+    "source_name": "com.sun.security.auth.NTSidDomainPrincipal.equals(java.lang.Object).<R>",
+    "source_api_id": 453549,
+    "text": "true if the specified Object is equal equal to this NTSidDomainPrincipal.",
+    "labels": [
+      8,
+      28,
+      "EQ-1"
+    ],
+    "linked_entity_name": "com.sun.security.auth.NTSidDomainPrincipal.equals(java.lang.Object).<P>o",
+    "linked_id": 304838
+  },
+  {
+    "count": 231,
+    "mention": "the type of this JDBC RowSet object",
+    "source_name": "javax.sql.rowset.BaseRowSet.getType().<R>",
+    "source_api_id": 491723,
+    "text": "the type of this JDBC RowSet object, which must be one of the following: ResultSet.TYPE_FORWARD_ONLY, ResultSet.TYPE_SCROLL_INSENSITIVE, or ResultSet.TYPE_SCROLL_SENSITIVE",
+    "labels": [
+      0,
+      35,
+      "EQ-1"
+    ],
+    "linked_entity_name": "javax.sql.rowset.BaseRowSet.getType().<R>",
+    "linked_id": 491723
+  },
+  {
+    "count": 232,
+    "mention": "ResultSet.TYPE_FORWARD_ONLY",
+    "source_name": "javax.sql.rowset.BaseRowSet.getType().<R>",
+    "source_api_id": 491723,
+    "text": "the type of this JDBC RowSet object, which must be one of the following: ResultSet.TYPE_FORWARD_ONLY, ResultSet.TYPE_SCROLL_INSENSITIVE, or ResultSet.TYPE_SCROLL_SENSITIVE",
+    "labels": [
+      73,
+      100,
+      "EQ-2"
+    ],
+    "linked_entity_name": "java.sql.ResultSet.TYPE_FORWARD_ONLY",
+    "linked_id": 200783
+  },
+  {
+    "count": 233,
+    "mention": "ResultSet.TYPE_SCROLL_INSENSITIVE",
+    "source_name": "javax.sql.rowset.BaseRowSet.getType().<R>",
+    "source_api_id": 491723,
+    "text": "the type of this JDBC RowSet object, which must be one of the following: ResultSet.TYPE_FORWARD_ONLY, ResultSet.TYPE_SCROLL_INSENSITIVE, or ResultSet.TYPE_SCROLL_SENSITIVE",
+    "labels": [
+      102,
+      135,
+      "EQ-2"
+    ],
+    "linked_entity_name": "java.sql.ResultSet.TYPE_SCROLL_INSENSITIVE",
+    "linked_id": 200784
+  },
+  {
+    "count": 234,
+    "mention": "ResultSet.TYPE_SCROLL_SENSITIVE",
+    "source_name": "javax.sql.rowset.BaseRowSet.getType().<R>",
+    "source_api_id": 491723,
+    "text": "the type of this JDBC RowSet object, which must be one of the following: ResultSet.TYPE_FORWARD_ONLY, ResultSet.TYPE_SCROLL_INSENSITIVE, or ResultSet.TYPE_SCROLL_SENSITIVE",
+    "labels": [
+      140,
+      171,
+      "EQ-2"
+    ],
+    "linked_entity_name": "java.sql.ResultSet.TYPE_SCROLL_SENSITIVE",
+    "linked_id": 200785
+  },
+  {
+    "count": 235,
+    "mention": "Element",
+    "source_name": "com.sun.org.apache.xpath.internal.domapi.XPathEvaluatorImpl.evaluate(java.lang.String,org.w3c.dom.Node,org.w3c.dom.xpath.XPathNSResolver,short,java.lang.Object).<P>contextNode",
+    "source_api_id": 303745,
+    "text": "If the XPathEvaluator was obtained by casting the Document then this must be owned by the same document and must be a Document, Element, Attribute, Text, CDATASection, Comment, ProcessingInstruction, or XPathNamespace node.",
+    "labels": [
+      128,
+      135,
+      "Type-2"
+    ],
+    "linked_entity_name": "org.w3c.dom.Element",
+    "linked_id": 14515
+  },
+  {
+    "count": 236,
+    "mention": "ProcessingInstruction",
+    "source_name": "com.sun.org.apache.xpath.internal.domapi.XPathEvaluatorImpl.evaluate(java.lang.String,org.w3c.dom.Node,org.w3c.dom.xpath.XPathNSResolver,short,java.lang.Object).<P>contextNode",
+    "source_api_id": 303745,
+    "text": "If the XPathEvaluator was obtained by casting the Document then this must be owned by the same document and must be a Document, Element, Attribute, Text, CDATASection, Comment, ProcessingInstruction, or XPathNamespace node.",
+    "labels": [
+      177,
+      198,
+      "Type-2"
+    ],
+    "linked_entity_name": "org.w3c.dom.ProcessingInstruction",
+    "linked_id": 14598
+  },
+  {
+    "count": 237,
+    "mention": "XPathNamespace node",
+    "source_name": "com.sun.org.apache.xpath.internal.domapi.XPathEvaluatorImpl.evaluate(java.lang.String,org.w3c.dom.Node,org.w3c.dom.xpath.XPathNSResolver,short,java.lang.Object).<P>contextNode",
+    "source_api_id": 303745,
+    "text": "If the XPathEvaluator was obtained by casting the Document then this must be owned by the same document and must be a Document, Element, Attribute, Text, CDATASection, Comment, ProcessingInstruction, or XPathNamespace node.",
+    "labels": [
+      203,
+      222,
+      "Type-2"
+    ],
+    "linked_entity_name": "org.w3c.dom.xpath.XPathNamespace",
+    "linked_id": 14619
+  },
+  {
+    "count": 238,
+    "mention": "Comment",
+    "source_name": "com.sun.org.apache.xpath.internal.domapi.XPathEvaluatorImpl.evaluate(java.lang.String,org.w3c.dom.Node,org.w3c.dom.xpath.XPathNSResolver,short,java.lang.Object).<P>contextNode",
+    "source_api_id": 303745,
+    "text": "If the XPathEvaluator was obtained by casting the Document then this must be owned by the same document and must be a Document, Element, Attribute, Text, CDATASection, Comment, ProcessingInstruction, or XPathNamespace node.",
+    "labels": [
+      168,
+      175,
+      "Type-2"
+    ],
+    "linked_entity_name": "org.w3c.dom.Comment",
+    "linked_id": 14480
+  },
+  {
+    "count": 239,
+    "mention": "Text",
+    "source_name": "com.sun.org.apache.xpath.internal.domapi.XPathEvaluatorImpl.evaluate(java.lang.String,org.w3c.dom.Node,org.w3c.dom.xpath.XPathNSResolver,short,java.lang.Object).<P>contextNode",
+    "source_api_id": 303745,
+    "text": "If the XPathEvaluator was obtained by casting the Document then this must be owned by the same document and must be a Document, Element, Attribute, Text, CDATASection, Comment, ProcessingInstruction, or XPathNamespace node.",
+    "labels": [
+      148,
+      152,
+      "Type-2"
+    ],
+    "linked_entity_name": "org.w3c.dom.Text",
+    "linked_id": 14607
+  },
+  {
+    "count": 240,
+    "mention": "CDATASection",
+    "source_name": "com.sun.org.apache.xpath.internal.domapi.XPathEvaluatorImpl.evaluate(java.lang.String,org.w3c.dom.Node,org.w3c.dom.xpath.XPathNSResolver,short,java.lang.Object).<P>contextNode",
+    "source_api_id": 303745,
+    "text": "If the XPathEvaluator was obtained by casting the Document then this must be owned by the same document and must be a Document, Element, Attribute, Text, CDATASection, Comment, ProcessingInstruction, or XPathNamespace node.",
+    "labels": [
+      154,
+      166,
+      "Type-2"
+    ],
+    "linked_entity_name": "org.w3c.dom.CDATASection",
+    "linked_id": 14478
+  },
+  {
+    "count": 241,
+    "mention": "Document",
+    "source_name": "com.sun.org.apache.xpath.internal.domapi.XPathEvaluatorImpl.evaluate(java.lang.String,org.w3c.dom.Node,org.w3c.dom.xpath.XPathNSResolver,short,java.lang.Object).<P>contextNode",
+    "source_api_id": 303745,
+    "text": "If the XPathEvaluator was obtained by casting the Document then this must be owned by the same document and must be a Document, Element, Attribute, Text, CDATASection, Comment, ProcessingInstruction, or XPathNamespace node.",
+    "labels": [
+      64,
+      68,
+      "Type-1"
+    ],
+    "linked_entity_name": "org.w3c.dom.Document",
+    "linked_id": 14503
+  },
+  {
+    "count": 242,
+    "mention": "obj",
+    "source_name": "javax.naming.CompositeName.equals(java.lang.Object).<R>",
+    "source_api_id": 489061,
+    "text": "true if obj is equal to this composite name, false otherwise.",
+    "labels": [
+      8,
+      11,
+      "EQ-1"
+    ],
+    "linked_entity_name": "javax.naming.CompositeName.equals(java.lang.Object).<P>obj",
+    "linked_id": 345304
+  },
+  {
+    "count": 243,
+    "mention": "the calendar system type",
+    "source_name": "java.time.chrono.HijrahChronology.getCalendarType().<R>",
+    "source_api_id": 473951,
+    "text": "the calendar system type; non-null if the calendar has a standard type, otherwise null",
+    "labels": [
+      0,
+      24,
+      "NotNull"
+    ],
+    "linked_entity_name": "java.time.chrono.HijrahChronology.getCalendarType().<R>",
+    "linked_id": 473951
+  },
+  {
+    "count": 244,
+    "mention": "a TypeVariable",
+    "source_name": "com.sun.javadoc.Type.asTypeVariable().<R>",
+    "source_api_id": 430621,
+    "text": "a TypeVariable if the type is a type variable, or null if it is not.",
+    "labels": [
+      0,
+      14,
+      "Returned"
+    ],
+    "linked_entity_name": "com.sun.javadoc.Type.asTypeVariable().<R>",
+    "linked_id": 430621
+  },
+  {
+    "count": 245,
+    "mention": "the error or warning message for this SOAPException",
+    "source_name": "javax.xml.soap.SOAPException.getMessage().<R>",
+    "source_api_id": 511448,
+    "text": "the error or warning message for this SOAPException or, if it has none, the message of the embedded Throwable object, if there is one",
+    "labels": [
+      0,
+      51,
+      "Returned"
+    ],
+    "linked_entity_name": "javax.xml.soap.SOAPException.getMessage().<R>",
+    "linked_id": 511448
+  },
+  {
+    "count": 246,
+    "mention": "the specified Object",
+    "source_name": "java.awt.image.PackedColorModel.equals(java.lang.Object).<R>",
+    "source_api_id": 458393,
+    "text": "true if the specified Object is an instance of PackedColorModel and equals this PackedColorModel; false otherwise.",
+    "labels": [
+      8,
+      28,
+      "Type-1"
+    ],
+    "linked_entity_name": "java.awt.image.PackedColorModel.equals(java.lang.Object).<P>obj",
+    "linked_id": 310917
+  }
+]
